@@ -1,0 +1,42 @@
+.row3 {
+  margin-top: 170px;
+  margin-left: 20px;
+}
+
+.basket-button {
+  float: right;
+  margin-left: -50%;
+  margin-top: 2em;
+  margin-right: 1em;
+  color: #A5FFFB;
+  background-color: transparent;
+  box-shadow: inset 0px 0px 10px 5px #44E5DD;
+  border: 0px;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.basket-button:hover {
+  color: #A5FFFB;
+  background-color: transparent;
+}
+
+.cart-badge {
+  color: #0E1655;
+  background-color: #A5FFFB !important;
+}
+
+/*
+.cart-badge:hover{
+  color: #A5FFFB;
+  background-color: #0E1655 !important;
+}
+*/
+
+.button1 {
+  background: #8938E8;
+  mix-blend-mode: normal;
+  box-shadow: inset -7px 43px 64px -15px rgba(76, 216, 222, 0.95);
+  margin-bottom: 400px;
+  margin-top: 20px;
+}

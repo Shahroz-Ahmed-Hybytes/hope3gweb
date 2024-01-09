@@ -1,0 +1,47 @@
+.donate-button {
+  position: relative;
+  color: #E4C6F8;
+  background: transparent;
+  box-shadow: inset 0px 0px 10px 5px #9D3DFD;
+  border: 0px;
+  border-radius: 8px;
+  padding: 22px 0px 22px 0px;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.courses-dropdown {
+  color: #9D3DFD;
+  background: #E4C6F8;
+  box-shadow: inset 0px 0px 10px 3px #9D3DFD;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.courses-dropdown-input {
+  color: #9D3DFD;
+  background: #E4C6F8;
+  box-shadow: inset 0px 0px 10px 3px #9D3DFD;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.active-item {
+  color: #E4C6F8;
+  background-color: #9D3DFD;
+}
+
+.courses-donate-button {
+  /* position: absolute;
+  left: 60%; */
+  background: transparent;
+  color: #E4C6F8;
+  box-shadow: inset 0px 0px 10px 3px #9D3DFD;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.courses-donate-button:hover {
+  background: #E4C6F8;
+  color: #9D3DFD;
+}

@@ -1,0 +1,41 @@
+.temp-outer-container {
+  width: auto;
+  min-height: 50vh;
+}
+
+.temp-inner-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-size: 20px;
+  background-image: url('/public/Images/home/galaxy.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 30%;
+  display: flex;
+}
+
+@media screen and (max-width: 1400px) {
+  .temp-outer-container {
+    min-height: 30vh;
+  }
+}
+
+.under-dev-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.underDevImg {
+  width: 100%;
+}
+
+@media (max-width: 990px) {
+  .under-dev-img {
+    width: 75%;
+  }
+}

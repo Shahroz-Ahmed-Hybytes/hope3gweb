@@ -1,0 +1,350 @@
+.class-settings-outer-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  font-size: 20px;
+  background-image: url('/public/Images/nurseryHub/galaxy_planets.png'),
+    url('/public/Images/nurseryHub/purple_meteors.png'),
+    url('/public/Images/nurseryHub/purple_cloud_lined.png');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left -17% top 25%, right 14% top 16%, bottom right;
+  background-size: 40%, 10%, 88%;
+}
+
+.class-settings-inner-container {
+  position: relative;
+  width: 100%;
+  top: 30px;
+  margin: 0 auto;
+  padding-bottom: 12%;
+  min-height: 1200px;
+}
+
+.class-settings_title {
+  font-family: 'Roboto-SemiBold';
+  color: #44e5dd;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.class-listing {
+  margin: 0 auto;
+  width: 90%;
+  min-height: 470px;
+}
+
+.class-settings-header {
+  width: 94%;
+  position: relative;
+  background-image: url('/public/Images/nurseryHub/divider_line.png');
+  background-repeat: no-repeat;
+  background-size: 100% 1%;
+  background-position: bottom center;
+  padding: 5% 1%;
+  z-index: 1;
+  margin: -6% auto -1%;
+}
+
+#classes_astro_ziggy {
+  width: 18%;
+  right: 17%;
+  top: -15%;
+}
+
+.class-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 3%;
+  border-radius: 10px;
+  background-image: url('/public/Images/nurseryHub/class_box.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 490px) {
+  .class-box {
+    padding: 12% 6%;
+    flex-direction: column;
+    align-items: end;
+  }
+}
+
+.class-details {
+  width: 90%;
+}
+
+.remove-class {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media only screen and (max-width: 490px) {
+  .remove-class {
+    width: 20%;
+  }
+}
+
+.add-class {
+  display: flex;
+  justify-content: flex-end;
+  width: 97%;
+  margin-top: 3%;
+}
+
+#add_a_class_button {
+  width: 15%;
+}
+
+@media only screen and (max-width: 490px) {
+  .add-class {
+    margin-top: 0;
+  }
+
+  #add_a_class_button {
+    width: 25%;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 35%;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.back-to-class-setting-link {
+  width: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    gap: 25%;
+  }
+
+  .back-to-class-setting-link {
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header {
+    gap: 10%;
+  }
+
+  .back-to-class-setting-link {
+    width: 20%;
+  }
+}
+
+.class-setup-form {
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+  background-image: url('/public/Images/nurseryHub/class_settings_form_box.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 10px;
+  padding: 3% 0;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .class-setup-form {
+    padding: 6% 0;
+  }
+}
+
+#satellite {
+  width: 11%;
+  right: -1%;
+  bottom: 8%;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 730px) {
+  #satellite {
+    display: none;
+  }
+}
+
+.class-name label,
+.name-labels label,
+.certificate-labels label {
+  color: #44e5dd !important;
+}
+
+.class-name {
+  width: 100%;
+  background-image: url('/public/Images/nurseryHub/divider_line.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 95.8%;
+  padding: 0 6% 3%;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  background: transparent;
+  background-image: url('/public/Images/nurseryHub/long_input_field.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #44e5dd !important;
+  border: 0;
+  padding: 1% 2%;
+}
+
+.input-field:focus {
+  outline: 0;
+}
+
+.date-field {
+  width: 36%;
+  background: transparent;
+  background-image: url('/public/Images/nurseryHub/short_input_field.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #44e5dd !important;
+  border: 0;
+  padding: 1% 2%;
+}
+
+.date-field::placeholder {
+  color: #44e5dd !important;
+  text-align: center;
+  font-weight: bold;
+}
+
+.date-field:focus {
+  outline: 0;
+}
+
+.class-name-input {
+  display: flex;
+  justify-content: flex-start;
+  width: 62%;
+  gap: 30px;
+}
+
+.remove-class-setup {
+  width: 22%;
+}
+
+.teacher-details,
+.ta-details {
+  width: 84%;
+  padding: 0 6%;
+}
+
+@media only screen and (max-width: 730px) {
+  .teacher-details,
+  .ta-details {
+    width: 98%;
+  }
+}
+
+.teacher-details {
+  margin-bottom: 30px;
+}
+
+.name-labels,
+.name-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-labels {
+  width: 74%;
+}
+
+.name-input {
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.certificate-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 74%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .name-labels,
+  .certificate-labels {
+    width: 76%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .name-labels,
+  .certificate-labels {
+    width: 78%;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .name-labels,
+  .certificate-labels {
+    width: 82%;
+  }
+}
+
+.class-certificate-names {
+  width: 69%;
+  position: relative;
+  margin-left: 8%;
+}
+
+@media only screen and (max-width: 730px) {
+  .class-certificate-names {
+    width: 86%;
+  }
+}
+
+.new-btn {
+  margin-top: 20px;
+  width: 20%;
+}
+
+#astro_ziggy {
+  position: absolute;
+  width: 16%;
+  right: 0%;
+  bottom: 22%;
+}
+
+@media only screen and (max-width: 730px) {
+  #astro_ziggy {
+    display: none;
+  }
+}
+
+.save-btn {
+  width: 85%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.save-button {
+  cursor: pointer;
+  width: 10%;
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 730px) {
+  .save-button {
+    width: 15%;
+  }
+}

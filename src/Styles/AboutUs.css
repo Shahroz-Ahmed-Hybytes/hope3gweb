@@ -1,0 +1,73 @@
+.about-inner-container {
+    background-image: url("/public/Images/aboutUs/about_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;  
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    opacity: 1;
+    padding-top: 150px;
+  }
+  
+  .aboutUsContent {
+    overflow: hidden;
+  }
+  
+  .book {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/public/Images/aboutUs/book_container.png");
+      background-repeat: no-repeat;
+    background-position: center center;   
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .book-content {
+    cursor: grab;
+    overflow: hidden;
+    margin-left: 32px;
+    margin-right: 21px;
+  }
+  
+  .book-pages {
+    position: relative;
+    width: 100%;
+  }
+  
+  .about-inner-container-vertical {
+    background-image: url("/public/Images/aboutUs/mobile/libraryMobil1.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    opacity: 1;
+    padding-top: 100px;
+  }
+  
+  .aboutUsContent-vertical {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .book-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    width: 400px;
+    cursor: grab;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: red;
+    border-radius: 45px;
+  }

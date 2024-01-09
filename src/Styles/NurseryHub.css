@@ -1,0 +1,193 @@
+/* Titles on nursery hub pages */
+.hub_title {
+  font-family: 'Roboto-SemiBold';
+  color: #44e5dd;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 425px) {
+  .hub_title {
+    font-size: 1em;
+  }
+}
+
+.welcome-hub-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-bottom: 6%;
+}
+
+@media screen and (max-width: 800px) {
+  .welcome-hub-container {
+    flex-direction: column;
+  }
+}
+
+.welcome-content {
+  width: 40%;
+}
+
+@media screen and (max-width: 800px) {
+  .welcome-content {
+    width: 100%;
+    margin-left: 4%;
+  }
+}
+
+#welcome_ziggy {
+  width: 100%;
+}
+
+#welcome_text {
+  margin: 30% auto 0;
+  width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+  #welcome_text {
+    margin: 10% auto 0; 
+  }
+}
+
+#incorrect_login {
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #d8606a;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1400px) {
+  #incorrect_login {
+    font-size: 1em;
+  }
+}
+
+.login-form {
+  width: 90%;
+  margin: -10px auto;
+}
+
+@media screen and (max-width: 800px) {
+  .login-form  {
+    margin-left: 12%;
+  }
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.login-input {
+  -webkit-box-shadow: 0px 0px 8px 4px var(--form-label-color);
+  box-shadow: 0px 0px 8px 4px var(--form-label-color);
+  color: #A5FFFB;
+  background-color: transparent;
+  background-image: url("/public/Images/nurseryHub/mid_input_field.png");
+  background-repeat: no-repeat;
+  background-size: 101% 100%;
+  background-position: center;
+  border: 0;
+  outline: 0;
+  padding-left: 15px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.button-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#no_account {
+  text-align: center;
+}
+
+#login_button, #send_email_button, #have_not_received_button, #sign_up_button {
+  margin: 10px 0;
+}
+
+#login_button, #send_email_button, #have_not_received_button {
+  width: 40%;
+}
+
+#sign_up_button {
+  width: 25%;
+}
+
+@media screen and (max-width: 1000px) {
+  #login_button, #send_email_button, #have_not_received_button {
+    width: 60%;
+  }
+  
+  #sign_up_button {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #login_button, #send_email_button, #have_not_received_button {
+    width: 40%;
+  }
+  
+  #sign_up_button {
+    width: 25%;
+  }
+}
+
+.forgot-password {
+  text-decoration: none;
+  text-align: center;
+  color: #44E5DD;
+}
+
+.welcome-message {
+  margin-top: 20px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.welcome-msg {
+  width: 90%;
+  margin: 0 auto 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .welcome-msg {
+    margin-left: 12%;
+  }
+}
+
+.help-link {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1.8;
+  transition: all 0.3s ease-out;
+}
+
+.help-link:hover {
+  transform: translate(0, -5px);
+}
+
+.nursery_settings {
+  color: #85aa58;
+}
+
+.class_info {
+  color: #e5dd44;
+}
+
+.download_reports {
+  color: #e89dc7;
+}
+
+.account_balance {
+  color: #c8372d;
+}

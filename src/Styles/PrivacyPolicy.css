@@ -1,0 +1,249 @@
+.privacy-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.privacy-container p {
+  font-family: 'Cocon-Bold';
+  font-size: 1.5vw;
+  line-height: 2.6vw;
+}
+@media only screen and (max-width: 500px) {
+  .privacy-container p {
+    font-size: 1.4vw;
+    line-height: 2.4vw;
+  }
+}
+.privacy-container h1 {
+  font-family: 'Cocon-Bold';
+  color: #f7c246;
+  font-size: 3vw;
+}
+.privacy-container h2 {
+  font-family: 'Cocon-Bold';
+  color: #f7c246;
+  font-size: 2vw;
+}
+.privacy-container h3 {
+  padding: 5% 0 2%;
+  font-size: 1.8vw;
+  color: #f7c246;
+  font-family: 'Cocon-Bold';
+  margin: auto;
+}
+.hope-art-privacy-policy {
+  background-image: url('../../public/Images/privacyPolicy/HOPE_ART_yellow_logo.png');
+  height: calc(100vw / 10);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+.privacy-container ul {
+  color: #f7c246;
+  font-family: 'Cocon-Bold';
+  padding-left: 5%;
+  font-size: 1.4vw;
+  line-height: 2.5vw;
+  margin: 1% 0;
+}
+.what_personal_data p,
+.how_long,
+.purpose p,
+.your_consent {
+  width: 55%;
+}
+.privacy_backgrounds {
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.privacy_policy_intro {
+  background-image: url('/public/Images/privacyPolicy/00intro.png');
+  margin-top: -23%;
+  height: calc(100vw / 1.3);
+  justify-content: center;
+  z-index: 2;
+}
+
+.privacy_policy_intro p {
+  text-align: center;
+  width: 73%;
+  padding-left: 3%;
+  padding-top: 10%;
+  font-size: 1.5vw;
+}
+.purpose {
+  background-image: url('/public/Images/privacyPolicy/01purpose.png');
+  background-position: top left;
+  height: calc(100vw / 1);
+  margin-top: -45%;
+  z-index: 0;
+}
+
+.purpose h2 {
+  padding-bottom: calc(100vw / 100);
+  padding-top: 42%;
+}
+.who_are_we_background {
+  background-image: url('/public/Images/privacyPolicy/02whoAreWe.png');
+  height: calc(100vw / 1);
+  margin-top: -35%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 85%;
+  position: absolute;
+}
+.who_are_we h2 {
+  padding-top: 7%;
+}
+.who_are_we p {
+  margin-top: 15%;
+  width: 80%;
+  text-align: center;
+  z-index: 100;
+}
+.what_personal_data {
+  background-image: url('/public/Images/privacyPolicy/03whatPersonalData.png');
+  height: calc(100vw / 0.72);
+}
+
+.what_personal_data h2 {
+  padding: 10% 0 1% 0;
+}
+.how_we_collect {
+  background-image: url('/public/Images/privacyPolicy/04+05+06.png');
+  height: calc(100vw / 0.73);
+  margin: auto;
+}
+.how_we_collect p {
+  width: 60%;
+}
+.how_we_collect_heading {
+  margin-top: 10%;
+}
+.how_long_heading,
+.your_consent_heading {
+  margin-top: 5%;
+}
+
+.legitimate h2 {
+  padding: 5% 0 2%;
+}
+.policy_children {
+  background-image: url('/public/Images/privacyPolicy/07.children.png');
+}
+.policy_children h2 {
+  padding: 1% 0 2%;
+}
+.policy_children p,
+.legitimate p,
+.rights_and_requests p,
+.personal_data_protected p,
+.policy_how p,
+.changes_privacy_policy p,
+.share_personal_data p,
+.policy_cookies p,
+.trademark p,
+.your_choice p,
+.policy_get_in_touch p,
+h3 {
+  width: 52%;
+}
+.legitimate {
+  background-image: url('/public/Images/privacyPolicy/08.legitimateInt.png');
+  height: calc(100vw / 0.67);
+}
+.legitimate li {
+  margin: 6% 1%;
+}
+.rights_and_requests {
+  background-image: url('/public/Images/privacyPolicy/09.rightsAndRequests.png');
+  height: calc(100vw / 1.2);
+}
+.rights_and_requests h2 {
+  padding-bottom: 3%;
+}
+.rights_and_requests li,
+.policy_how li,
+.policy_cookies li {
+  padding: 2%;
+}
+.personal_data_protected {
+  background-image: url('/public/Images/privacyPolicy/10.howPersonalDataProtected.png');
+  height: calc(100vw / 2.1);
+}
+.personal_data_protected h2 {
+  margin: 3% 0 1%;
+}
+.policy_how {
+  background-image: url('/public/Images/privacyPolicy/11how.png');
+  height: calc(100vw / 0.91);
+  margin-top: -2%;
+}
+.policy_how h2 {
+  margin: 30% 0 2%;
+}
+.changes_privacy_policy {
+  background-image: url('/public/Images/privacyPolicy/12changesToPrivacyPolicy.png');
+  height: calc(100vw / 1);
+  margin-top: -21%;
+  /* border: 1px solid orange; */
+}
+.changes_privacy_policy h2,
+.share_personal_data h2 {
+  margin: 4% 0 3%;
+  width: 50%;
+  text-align: center;
+}
+.share_personal_data {
+  background-image: url('/public/Images/privacyPolicy/13doWeSharePersonalData.png');
+  height: calc(100vw / 1.2);
+  margin-top: -60%;
+}
+.policy_cookies {
+  background-image: url('/public/Images/privacyPolicy/14cookies.png');
+  height: calc(100vw / 0.367);
+}
+.policy_cookies p {
+  margin: auto;
+}
+.policy_cookies h2 {
+  margin-top: 17%;
+  margin-right: 4%;
+}
+.cookie_text {
+  margin-top: 4%;
+}
+.cookieTypes {
+  padding-top: 10% !important;
+}
+.trademark {
+  background-image: url('/public/Images/privacyPolicy/15trademark.png');
+  height: calc(100vw / 1);
+  margin-top: -35%;
+}
+.trademark h2 {
+  margin: 45% 0 3%;
+}
+
+.your_choice h2 {
+  padding: 3.5% 0 2%;
+}
+.your_choice {
+  background-image: url('/public/Images/privacyPolicy/16.yourChoice.png');
+  height: calc(100vw / 1.832);
+}
+.policy_get_in_touch {
+  margin: -45% 0 -27%;
+  background-image: url('/public/Images/privacyPolicy/17.getInTouch.png');
+  height: calc(100vw / 0.69);
+}
+.policy_get_in_touch h2 {
+  margin-top: 45%;
+  padding-bottom: 2%;
+}

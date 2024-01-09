@@ -1,0 +1,475 @@
+.balance-top-up-outer-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  font-size: 20px;
+  background-image: url("/public/Images/nurseryHub/bottom_darkblue_cloud_lined.png"), url("/public/Images/nurseryHub/galaxy_clouds.png");
+  background-repeat: no-repeat no-repeat;
+  background-position: bottom right, top center;
+  background-size: 88%, 100%;
+}
+
+@media screen and (max-width:960px) {
+  .balance-top-up-outer-container {
+    background-position: bottom right, top 10% center;
+  }
+}
+
+@media screen and (max-width:710px) {
+  .balance-top-up-outer-container {
+    background-position: bottom right, top 20% center;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .balance-top-up-outer-container {
+    background-position: bottom right, top 25% center;
+  }
+}
+
+.balance-top-up-inner-container {
+  position: relative;
+  width: 70%;
+  top: 30px;
+  margin: 0 auto;
+  padding-bottom: 20%;
+}
+
+@media screen and (max-width:500px) {
+  .balance-top-up-inner-container {
+    width: 80%;
+    padding-bottom: 30%;
+  }
+}
+
+.balance-top-up_title {
+  font-family: 'Roboto-SemiBold';
+  color: #da9f6d;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.balance-top-up {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 9%;
+}
+
+@media screen and (max-width:1280px) {
+  .balance-top-up {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.top-up {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 30%;
+}
+
+.payment_ziggy {
+  width: 30%;
+}
+
+@media screen and (max-width:1280px) {
+  .top-up, .payment_ziggy {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:960px) {
+  .top-up, .payment_ziggy {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:710px) {
+  .top-up, .payment_ziggy {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .top-up, .payment_ziggy {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .top-up, .payment_ziggy {
+    width: 120%;
+  }
+}
+
+.top-up p {
+  color: #fff;
+  text-align: center;
+}
+
+.add-figure {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: transparent;
+  background-image: url("/public/Images/nurseryHub/money_input_field.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 42% 100%;
+  border-radius: 8px;
+  padding: 8px;
+  gap: 5px;
+}
+
+#amount {
+  width: 25%;
+  height: 50px;
+  color: #fff;
+  background: transparent;
+  padding: 10px;
+  border: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.money-line {
+  border-right: 1px solid #ffc41b;
+}
+
+#currency {
+  width: 12%;
+  background: transparent;
+  border: 0;
+  color: #ffc41b;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#currency option {
+  background-color: #32396e;
+}
+
+#amount:focus, #currency:focus {
+  outline: none;
+}
+
+@media screen and (max-width:1460px) {
+  .add-figure {
+    background-size: 62% 100%;
+  }
+
+  #amount {
+    width: 35%;
+  }
+
+  #currency {
+    width: 15%;
+  }
+}
+
+.payment-form {
+  width: 90%;
+  background-image: url("/public/Images/nurseryHub/balance_form_box.png");
+  background-repeat: no-repeat;
+  background-size: 101% 103%;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5% 6%;
+  z-index: 1;
+}
+
+@media screen and (max-width:1280px) {
+  .payment-form {
+    background-size: 103% 110%;
+  }
+}
+
+@media screen and (max-width:960px) {
+  .payment-form {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.balance-payment {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width:1280px) {
+  .balance-payment {
+    flex-direction: column;
+  }
+}
+
+.bill-pay-title {
+  font-family: 'Roboto-SemiBold';
+  color: #da9f6d;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+.billing-information {
+  border-right: 1px solid #ffc41b;
+  padding: 0 5% 0 0;
+}
+
+@media screen and (max-width:1280px) {
+  .billing-information {
+    border-right: none;
+    border-bottom: 1px solid #ffc41b;
+    padding: 5% 0;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .billing-information {
+    padding: 15% 5% 5%;
+  }
+}
+
+.billing-long-input {
+  width: 100%;
+  background: transparent;
+  background-image: url("/public/Images/nurseryHub/billing_long_input_field.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #ffc41b !important;
+  border: 0;
+  padding: 1% 2%;
+}
+
+.billing-short-input {
+  width: 100%;
+  background: transparent;
+  background-image: url("/public/Images/nurseryHub/billing_short_input_field.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #ffc41b !important;
+  border: 0;
+  padding: 2% 4%;
+}
+
+@media screen and (max-width:1280px) {
+  .billing-long-input {
+    padding: 1% 3%;
+  }
+
+  .billing-short-input {
+    background-image: url("/public/Images/nurseryHub/billing_long_input_field.png");
+    padding: 1% 3%;
+  }
+}
+
+#email-address {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:1280px) {
+  #email-address {
+    margin-bottom: 5px;
+  }
+}
+
+#first-line-address {
+  margin-bottom: 10px;
+}
+
+#city-postal-code {
+  display: flex;
+  gap: 10px;
+  margin-top: -35px;
+}
+
+@media screen and (max-width:1280px) {
+  #city-postal-code {
+    flex-direction: column;
+  }
+
+  #city-postal-code fieldset:first-child {
+    margin-bottom: -20px;
+  }
+}
+
+#country {
+  width: 100%;
+  background-color: transparent;
+  background-image: url("/public/Images/buyNow/buy_now_dropdown_field.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #da9f6d !important;
+  border: 0;
+  z-index: 1;
+  padding: 1% 2%;
+  appearance: none;
+}
+
+#country option {
+  background-color: #32396e;
+}
+
+.country-dropdown {
+  margin-top: -15px;
+}
+
+.billing-long-input:focus, .billing-short-input:focus, #country:focus {
+  outline: none;
+}
+
+.payment-method {
+  padding: 0 0 0 5%;
+}
+
+@media screen and (max-width:1280px) {
+  .payment-method {
+    padding: 5% 0 0 0;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .payment-method {
+    padding: 5% 5% 0;
+  }
+}
+
+.card-option {
+  display: flex;
+  width: 60%;
+  margin: 40px 0 90px;
+}
+
+@media screen and (max-width:1280px) {
+  .card-option {
+    width: 40%;
+    margin: 40px 0 60px;
+  }
+}
+
+@media screen and (max-width:710px) {
+  .card-option {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .card-option {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .card-option {
+    width: 100%;
+  }
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.custom-radio {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  background-image: url("/public/Images/nurseryHub/not_selected_radio_btn.png");
+  background-repeat: no-repeat;
+}
+
+.container input:checked ~ .custom-radio {
+  background-image: url("/public/Images/nurseryHub/selected_radio_btn.png");
+  background-repeat: no-repeat;
+}
+
+#master_card, #visa_card {
+  width: 50%;
+}
+
+#expire-date-cvv-no {
+  display: flex;
+  gap: 10px;
+  margin-top: -35px;
+}
+
+@media screen and (max-width:1280px) {
+  #expire-date-cvv-no {
+    flex-direction: column;
+  }
+
+  #expire-date-cvv-no fieldset:first-child {
+    margin-bottom: -20px;
+  }
+}
+
+.card-details {
+  height: 50px;
+}
+
+.pay-now-btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}
+
+@media screen and (max-width:1280px) {
+  .pay-now-btn {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .pay-now-btn {
+    margin: 5px 0 20px;
+  }
+}
+
+.pay-button {
+  width: 16%;
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+@media screen and (max-width:1280px) {
+  .pay-button {
+    width: 26%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .pay-button {
+    width: 36%;
+  }
+}
+
+.pay-button:hover {
+  background: transparent;
+}
+
+.pay-button:focus {
+  outline: none;
+}

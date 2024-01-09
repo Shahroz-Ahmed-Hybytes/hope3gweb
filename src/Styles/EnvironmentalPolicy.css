@@ -1,0 +1,235 @@
+.environmental-inner-container {
+  width: 100%;
+	height: auto;
+  position: relative;
+	font-size: 20px;
+  padding-bottom: 2%;
+  background-image: url("/public/Images/home/sky-stars.png");
+	background-repeat: no-repeat;
+	background-position: center top -10.5%;
+	background-size: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  .environmental-inner-container {
+    background-image: url("/public/Images/home/sky-stars.png");
+    background-position: center top -7%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .environmental-inner-container {
+    background-image: url("/public/Images/home/sky-stars.png");
+    background-position: center top -0.5%;
+  }
+}
+
+#presenting_ziggy {
+  left: 40%;
+  top: 0;
+  width: 24%;
+}
+
+#vine {
+  left: -10%;
+  top: 12%;
+  width: 22%;
+}
+
+#palm_tree {
+  right: -12%;
+  top: 40%;
+  width: 20%;
+}
+
+#earth {
+  width: 8%;
+}
+
+#jungle_plants {
+  width: 100%;
+}
+
+#hula_ziggy {
+  right: -30%;
+  top: 20%;
+  width: 24%;
+}
+
+#train_playing_ziggy {
+  left: -30%;
+  top: 59%;
+  width: 24%;
+}
+
+#training_train {
+  right: -33%;
+  top: 70%;
+  width: 36%;
+}
+
+#toilet_roll_ziggy {
+  left: -46%;
+  top: 12%;
+  width: 60%;
+}
+
+#toilet_rolls {
+  right: 18%;
+  top: 12%;
+  width: 15%;
+}
+
+#duck_riding_ziggy {
+  right: -26%;
+  top: 22%;
+  width: 45%;
+}
+
+#energy_saving_ziggy {
+  right: -50%;
+  top: 38%;
+  width: 54%;
+}
+
+#recycling_bin_ziggy {
+  left: -28%;
+  bottom: 16%;
+  width: 26%;
+}
+
+#observing_diamond_ziggy {
+  right: -50%;
+  bottom: 0;
+  width: 34%;
+}
+
+#environmental_posing_ziggy {
+  width: 50%;
+}
+
+#environmental_thinking_ziggy {
+  width: 60%;
+}
+
+@media screen and (max-width: 1200px) { 
+  #vine {
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 1090px) { 
+  #vine {
+    top: 35%;
+  }
+}
+
+@media screen and (max-width: 950px) { 
+  #vine {
+    top: 10%;
+  }
+}
+
+@media screen and (max-width: 670px) { 
+  #vine {
+    top: 35%;
+  }
+}
+
+@media screen and (max-width: 480px) { 
+  #vine {
+    top: 45%;
+  }
+}
+
+@media screen and (max-width: 425px) {  
+  #presenting_ziggy {
+    left: 35%;
+    top: 0;
+    width: 35%;
+  }
+  
+  #vine {
+    left: -14%;
+    top: 54%;
+    width: 30%;
+  }
+  
+  #palm_tree {
+    right: -17%;
+    top: 45%;
+    width: 30%;
+  }
+  
+  #earth {
+    width: 15%;
+  }
+  
+  #hula_ziggy {
+    right: -36%;
+    top: 17%;
+    width: 40%;
+  }
+  
+  #train_playing_ziggy {
+    left: -43%;
+    top: 59%;
+    width: 40%;
+  }
+  
+  #training_train {
+    right: -41%;
+    top: 78%;
+    width: 50%;
+  }
+  
+  #toilet_roll_ziggy {
+    left: -65%;
+    top: 13%;
+    width: 85%;
+  }
+  
+  #toilet_rolls {
+    right: 3%;
+    top: 12%;
+    width: 25%;
+  }
+  
+  #duck_riding_ziggy {
+    right: -38%;
+    top: 22%;
+    width: 65%;
+  }
+  
+  #energy_saving_ziggy {
+    right: -50%;
+    top: 43%;
+    width: 64%;
+  }
+  
+  #recycling_bin_ziggy {
+    left: -40%;
+    bottom: 15%;
+    width: 36%;
+  }
+  
+  #observing_diamond_ziggy {
+    right: -50%;
+    bottom: 5%;
+    width: 50%;
+  }
+  
+  #environmental_posing_ziggy {
+    width: 80%;
+  }
+  
+  #environmental_thinking_ziggy {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 370px) { 
+  #vine {
+    top: 62%;
+  }
+}

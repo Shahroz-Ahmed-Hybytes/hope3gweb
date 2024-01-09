@@ -1,0 +1,677 @@
+.reports-outer-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  font-size: 20px;
+  background-image: url("/public/Images/nurseryHub/top_purple_cloud.png"), url("/public/Images/nurseryHub/clouds_stars_meteors.png"), url("/public/Images/nurseryHub/bottom_blue-yellow_cloud_lined.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top right, left -9% bottom 18%, bottom right;
+  background-size: 48%, 50%, 88%;
+}
+
+.reports-inner-container, .report-inner-container {
+  position: relative;
+  width: 100%;
+  top: 30px;
+  margin: 0 auto;
+}
+
+.reports-inner-container {
+  padding-bottom: 80%;
+}
+
+.report-inner-container {
+  padding-bottom: 15%;
+}
+
+.reports_title {
+  font-family: 'Roboto-SemiBold';
+  color: #ffad27;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#lessons_menu {
+  left: 16%;
+  top: 12%;
+  width: 40%;
+  z-index: 2;
+}
+
+#astro_ziggy_on_planet {
+  right: 25%;
+  top: 16%;
+  width: 16%;
+  z-index: 2;
+}
+
+#balance_history {
+  right: 0;
+  top: 18%;
+  width: 60%;
+  z-index: 1;
+}
+
+#daily_usage_summary {
+  left: 18%;
+  top: 57%;
+  width: 24%;
+}
+
+#episode_log_link {
+  width: 17.5%;
+  height: 28%;
+  top: 14.5%;
+  left: 18.2%;
+  -webkit-radius: 10% 0 0 10%;
+  -moz-border-radius: 10% 0 0 10%;
+  border-radius: 10% 0 0 10%;
+  cursor: pointer;
+  z-index: 3;
+}
+
+#episodes_class_link {
+  width: 17.6%;
+  height: 14.2%;
+  top: 14.7%;
+  left: 36.1%;
+  -webkit-border-radius: 0 10% 0 0;
+  -moz-border-radius: 0 10% 0 0;
+  border-radius: 0 10% 0 0;
+  cursor: pointer;
+  z-index: 3;
+}
+
+#episodes_individual_link {
+  width: 17.6%;
+  height: 13.1%;
+  top: 29.4%;
+  left: 36.1%;
+  -webkit-border-radius: 0 0 10% 0;
+  -moz-border-radius: 0 0 10% 0;
+  border-radius: 0 0 10% 0;
+  cursor: pointer;
+  z-index: 3;
+}
+
+#balance_history_link {
+  width: 20%;
+  height: 24%;
+  top: 44%;
+  right: 11.1%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 3;
+}
+
+#daily_usage_summary_link {
+  width: 13.2%;
+  height: 16%;
+  bottom: 24%;
+  left: 27%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  border-radius: 10%;
+  cursor: pointer;
+  z-index: 3;
+}
+
+@media only screen and (max-width: 1200px) {
+  #episode_log_link {
+    height: 27.3%;
+  }
+
+  #episodes_class_link {
+    height: 13.8%;
+    top: 14.5%;
+  }
+  
+  #episodes_individual_link {
+    height: 12.7%;
+    top: 28.9%;
+  }
+  
+  #balance_history_link {
+    top: 43%;
+  }
+  
+  #daily_usage_summary_link {
+    bottom: 24.2%;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  #episode_log_link {
+    height: 26.3%;
+  }
+
+  #episodes_class_link {
+    height: 13.4%;
+  }
+  
+  #episodes_individual_link {
+    top: 28.4%;
+  }
+  
+  #balance_history_link {
+    top: 42%;
+  }
+  
+  #daily_usage_summary_link {
+    bottom: 24.3%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #episode_log_link {
+    height: 25.3%;
+  }
+
+  #episodes_class_link {
+    height: 12.8%;
+  }
+  
+  #episodes_individual_link {
+    top: 27.8%;
+    height: 12.2%;
+  }
+  
+  #balance_history_link {
+    height: 22%;
+  }
+  
+  #daily_usage_summary_link {
+    bottom: 25.3%;
+    height: 15%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #episode_log_link {
+    height: 24.3%;
+  }
+
+  #episodes_class_link {
+    height: 12.2%;
+  }
+  
+  #episodes_individual_link {
+    top: 27.3%;
+    height: 11.2%;
+  }
+  
+  #balance_history_link {
+    height: 21%;
+    top: 41%;
+  }
+  
+  #daily_usage_summary_link {
+    bottom: 25.6%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #balance_history_link {
+    top: 40%;
+  }
+  
+  #daily_usage_summary_link {
+    height: 14%;
+    bottom: 26.6%;
+  }
+}
+
+.link-box {
+  display: block;
+}
+
+.report-header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30%;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.back-to-reports-link {
+  width: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .report-header {
+    gap: 25%;
+  }
+  
+  .back-to-reports-link {
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .report-header {
+    gap: 10%;
+  }
+  
+  .back-to-reports-link {
+    width: 20%;
+  }
+}
+
+.report-container, .balance-container {
+  width: 95%;
+  margin: 40px auto 0;
+  position: relative;
+  background-image: url("/public/Images/nurseryHub/report_box.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.report-container {
+  padding: 5%;
+}
+
+.balance-container {
+  padding: 1% 5% 4%;
+}
+
+@media only screen and (max-width: 890px) {
+  .report-container {
+    padding: 8%;
+  }
+
+  .balance-container {
+    padding: 1% 5% 4%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .report-container {
+    padding-bottom: 12%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .report-container {
+    padding: 14% 6% 20%;
+  }
+}
+
+.report-tabs {
+  margin-top: -83px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .report-tabs {
+    margin-top: -67px;
+  }
+}
+
+.tab {
+  color: #fff;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  color: #fff;
+  border: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background: #0e1655;
+  background-image: url("/public/Images/nurseryHub/lessons_taught_tab.png");
+  background-repeat: no-repeat;
+  background-position: center top -12px;
+  background-size: 129% 192%;
+  border: 0;
+  color: #fff;
+}
+
+.nav-tabs {
+  border-bottom: 0;
+}
+
+.search-reports {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-class {
+  display: flex;
+  align-items: end;
+  width: 35%;
+  gap: 10px;
+}
+
+.search-pupil {
+  display: flex;
+  align-items: end;
+  width: 65%;
+  gap: 15px;
+}
+
+.search-balance {
+  display: flex;
+  align-items: end;
+  width: 40%;
+  gap: 10px;
+}
+
+.search-daily-use {
+  display: flex;
+  align-items: end;
+  width: 25%;
+  gap: 10px;
+}
+
+.search-class fieldset, .search-pupil fieldset, .search-balance fieldset, .search-daily-use fieldset {
+  width: 100%;
+}
+
+.search-class label, .search-pupil label, .search-balance label, .search-daily-use label {
+  color: #44e5dd;
+}
+
+.search-select {
+  width: 100%;
+  background-color: transparent;
+  background-image: url("/public/Images/nurseryHub/short_dropdown_field.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #44e5dd;
+  border: 0;
+  z-index: 1;
+  padding: 1% 2%;
+  appearance: none;
+}
+
+.search-select option {
+  background-color: #32396e;
+}
+
+.search-select:focus {
+  outline: none;
+}
+
+.search-date {
+  width: 100%;
+  background: transparent;
+  background-image: url("/public/Images/nurseryHub/short_input_field.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #44e5dd !important;
+  border: 0;
+  padding: 1% 4%;
+}
+
+.search-date::placeholder {
+  color: #44e5dd !important;
+  text-align: center;
+  font-weight: bold;
+}
+
+.search-date:focus {
+  outline: 0;
+}
+
+.search-btn {
+  color: #44e5dd;
+  text-transform: uppercase;
+  border: 0;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+#top_up_button {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.top-up-btn {
+  width: 90%;
+}
+
+.report-entries {
+  padding-top: 20px;
+}
+
+.report-container {
+  width: 95%;
+  margin: 40px auto 0;
+  position: relative;
+  background-image: url("/public/Images/nurseryHub/report_box.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.report-container {
+  padding: 5%;
+}
+
+.balance-container {
+  padding: 1% 5% 4%;
+}
+
+@media only screen and (max-width: 890px) {
+  .report-container {
+    padding: 8%;
+  }
+
+  .balance-container {
+    padding: 1% 5% 4%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .report-container {
+    padding-bottom: 12%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .report-container {
+    padding: 14% 6% 20%;
+  }
+}
+
+.report-tabs {
+  margin-top: -83px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .report-tabs {
+    margin-top: -67px;
+  }
+}
+
+.tab {
+  color: #fff;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  color: #fff;
+  border: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background: #0e1655;
+  background-image: url("/public/Images/nurseryHub/lessons_taught_tab.png");
+  background-repeat: no-repeat;
+  background-position: center top -12px;
+  background-size: 129% 192%;
+  border: 0;
+  color: #fff;
+}
+
+.nav-tabs {
+  border-bottom: 0;
+}
+
+.search-reports {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-class {
+  display: flex;
+  align-items: end;
+  width: 35%;
+  gap: 10px;
+}
+
+.search-pupil {
+  display: flex;
+  align-items: end;
+  width: 65%;
+  gap: 15px;
+}
+
+.search-balance {
+  display: flex;
+  align-items: end;
+  width: 40%;
+  gap: 10px;
+}
+
+.search-class fieldset, .search-pupil fieldset, .search-balance fieldset {
+  width: 100%;
+}
+
+.search-class label, .search-pupil label, .search-balance label {
+  color: #44e5dd;
+}
+
+.search-select {
+  width: 100%;
+  background-color: transparent;
+  background-image: url("/public/Images/nurseryHub/short_dropdown_field.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #44e5dd;
+  border: 0;
+  z-index: 1;
+  padding: 1% 2%;
+  appearance: none;
+}
+
+.search-select option {
+  background-color: #32396e;
+}
+
+.search-select:focus {
+  outline: none;
+}
+
+.search-date {
+  width: 100%;
+  background: transparent;
+  background-image: url("/public/Images/nurseryHub/short_input_field.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #44e5dd !important;
+  border: 0;
+  padding: 1% 4%;
+}
+
+.search-date::placeholder {
+  color: #44e5dd !important;
+  text-align: center;
+  font-weight: bold;
+}
+
+.search-date:focus {
+  outline: 0;
+}
+
+.search-btn {
+  color: #44e5dd;
+  text-transform: uppercase;
+  border: 0;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+#top_up_button {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.top-up-btn {
+  width: 90%;
+}
+
+.report-entries {
+  padding-top: 20px;
+}
+
+.report-entries table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#balance-entries table {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#episode {
+  width: 80%;
+}
+
+#attended, #learned {
+  width: 40%;
+}
+
+#date {
+  width: 31%;
+}
+
+#description {
+  width: 40%;
+}
+
+#amount, #balance {
+  width: 20%;
+}
+
+.report-field {
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 2px solid #ffad27;
+}
+
+.report-record {
+  color: #c7c4c4 !important;
+  padding: 20px 0;
+  font-style: italic;
+}
+
+.print-and-download-report {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#print_report_button_greyed {
+  width: 12%;
+} 
+
+#download_report_button_greyed {
+  width: 14%;
+}

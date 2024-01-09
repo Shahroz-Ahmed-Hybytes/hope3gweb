@@ -1,0 +1,413 @@
+.child-director-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 40%;
+  background-color: #0E1655;
+  background-image: url("/public/Images/home/galaxy.png");
+  background-repeat: no-repeat;
+  background-position: top -2% right;
+  background-size: 50%;
+}
+
+.carousel-root {
+  display: flex;
+  margin: 100px auto !important;
+  width: 90% !important;
+  cursor: grab;
+}
+
+.carousel-root #how_to_type, #how_to_type,
+.carousel-root #frame_one, #frame_one,
+.carousel-root #frame_two, #frame_two,
+.carousel-root #frame_three, #frame_three,
+.carousel-root #frame_1, #frame_1,
+.carousel-root #frame_2, #frame_2,
+.carousel-root #frame_3, #frame_3,
+#frame_four,
+.carousel-root #frame_five, #frame_five,
+.carousel-root #frame_six, #frame_six,
+.carousel-root #frame_seven, #frame_seven,
+.carousel-root #helicopter_ziggy, #helicopter_ziggy,
+.carousel-root #frame_eight, #frame_eight,
+.carousel-root #kids_fight, #kids_fight,
+#trio-images,
+.carousel-root #frame_nine, #frame_nine,
+.carousel-root #frame_ten, #frame_ten,
+.carousel-root #ziggy_with_piggy_bank, #ziggy_with_piggy_bank,
+.carousel-root #frame_eleven, #frame_eleven,
+#ziggy-p_with_frame_eleven,
+.carousel-root #frame_twelve, #frame_twelve,
+.carousel-root #frame_thirteen, #frame_thirteen,
+.carousel-root #frame_fourteen, #frame_fourteen,
+.carousel-root #ziggy_at_halkin, #ziggy_at_halkin,
+.carousel-root #frame_fifteen, #frame_fifteen,
+.carousel-root #frame_sixteen, #frame_sixteen,
+.carousel-root #frame_seventeen, #frame_seventeen,
+.carousel-root #frame_eighteen, #frame_eighteen,
+.carousel-root #frame_nineteen, #frame_nineteen,
+.carousel-root #frame_twenty, #frame_twenty,
+.carousel-root #ziggy_recruitment, #ziggy_recruitment,
+.carousel-root #frame_twenty_three, #frame_twenty_three
+{
+  pointer-events: none;
+}
+
+.carousel-root #frame_twenty_one, .carousel-root #frame_twenty_two {
+  cursor: pointer;
+}
+
+/* additional positioning style classes */
+
+/* pictures */
+
+#theatre_video {
+  position: absolute;
+  width: 55.75%;
+  top: 22.8%;
+  left: 22.2%;
+  z-index: 800;
+}
+
+@media screen and (min-width: 1400px) {
+  #ziggy_hanging {
+    position: absolute;
+    top: 14.05%;
+    right: 2.6%;
+    z-index: 500;
+  }
+  
+  #piggy_ziggy {
+    position: absolute;
+    width: 23.6%;
+    top: 19.65%;
+    left: 8.21%;
+    z-index: 500;
+  }
+
+  #ziggy_pointing_at_video_pose {
+    position: absolute;
+    width: 14.6%;
+    bottom: 15.6%;
+    right: 3.5%;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #ziggy_hanging, 
+  #piggy_ziggy,
+  #ziggy_pointing_at_video_pose {
+    display: none;
+  }
+}
+
+#theatre {
+  z-index: 0;
+  max-width: 80%;
+  position: relative;
+  top: 50px;
+}
+
+.rain {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 100%;
+  z-index: 1;
+  background-image: url("../../public/Images/childDirector/rainbow_img.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  height: 700px;
+  position: absolute;
+  margin-top: -140px;
+}
+
+#how_we_started {
+  z-index: 0;
+  height: auto;
+  width: 100%;
+}
+
+#frame_four {
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#trio-images, #ziggy-p_with_frame_eleven {
+  width: 82%;
+}
+
+/* Keeping two images side by side in stacking containers */
+.picture-board {
+  margin-top: 100px;
+  padding: 0 20px;
+  max-width: 80%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+#frame_twenty_three {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.ziggy-p {
+  z-index: 2;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  width: 30%;
+}
+
+#piggy-h {
+  background-image: url("/public/Images/childDirector/piggy_ziggy.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  width: 100%;
+  z-index: 3;
+}
+
+.last {
+  z-index: 2;
+}
+
+@keyframes click-notice {
+  0%,
+  100% {
+    transform: rotate(4deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+}
+
+/* Center the last image at the bottom of page */
+.bottom-pic {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-img {
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .frame-h {
+    width: 120%;
+    height: 102%;
+    object-fit: cover;
+    margin-left: -107px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .frame-h {
+    width: 100%;
+    height: 102%;
+    object-fit: cover;
+    margin-left: -10px;
+  }
+}
+
+@media (min-width: 651px) {
+  #frame_1,
+  #frame_2,
+  #frame_3 {
+    display: none;
+  }
+
+  .grid-t {
+    grid-gap: 20px;
+    display: grid;
+    grid-template-areas:
+      'how f1'
+      'f2 f3'
+      'tf tf'
+      'f5 f6'
+      'f7 fe'
+      'f8 fz'
+      'f3e f3e'
+      'fm  fm'
+      'f12 f13'
+      'f14 fh'
+      'f15 f16'
+      'h  f'
+      'h  s'
+      'n  c'
+      'z  z'
+      'd  e'
+      'b  b'
+      'b  b';
+  }
+
+  #how_to_type {
+    grid-area: how;
+  }
+
+  #frame_one {
+    grid-area: f1;
+  }
+
+  #frame_two {
+    grid-area: f2;
+  }
+
+  #frame_three {
+    grid-area: f3;
+  }
+
+  #frame_four {
+    grid-area: tf;
+  }
+
+  #frame_five {
+    grid-area: f5;
+  }
+
+  #frame_six {
+    grid-area: f6;
+  }
+
+  #frame_seven {
+    grid-area: f7;
+  }
+
+  #frame_eight {
+    grid-area: f8;
+  }
+
+  #helicopter_ziggy {
+    grid-area: fe;
+  }
+
+  #kids_fight {
+    grid-area: fz;
+  }
+
+  #trio-images {
+    grid-area: f3e;
+  }
+
+  #ziggy-p_with_frame_eleven {
+    grid-area: fm;
+  }
+
+  #frame_twelve {
+    grid-area: f12;
+  }
+
+  #frame_thirteen {
+    grid-area: f13;
+  }
+
+  #frame_fourteen {
+    grid-area: f14;
+  }
+
+  #ziggy_at_halkin {
+    grid-area: fh;
+  }
+
+  #frame_fifteen {
+    grid-area: f15;
+  }
+
+  #frame_sixteen {
+    grid-area: f16;
+  }
+
+  .frame {
+    display: block;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #house {
+    grid-area: h;
+    pointer-events: none;
+  }
+
+  #frame_seventeen {
+    z-index: 0;
+    grid-area: f;
+  }
+
+  #frame_eighteen {
+    grid-area: s;
+  }
+
+  #frame_nineteen {
+    grid-area: n;
+  }
+
+  #frame_twenty {
+    grid-area: c;
+  }
+
+  #frame_twenty_one {
+    grid-area: d;
+  }
+
+  #frame_twenty_two {
+    grid-area: e;
+  }
+
+  #frame_twenty_three {
+    grid-area: b;
+  }
+
+  #ziggy_recruitment {
+    grid-area: z;
+  }
+
+  #trio-images, #ziggy-p_with_frame_eleven {
+    width: 100%;
+  }
+
+  #ziggy_recruitment {
+    width: 100%;
+  }
+
+  #frame_nine,
+  #frame_ten,
+  #frame_eleven,
+  #ziggy_with_piggy_bank {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .rain {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 650px) {
+  #frame_four {
+    display: none;
+  }
+
+  #trio-images, #ziggy-p_with_frame_eleven {
+    display: none;
+  }
+
+  .images {
+    width: 100%;
+  }
+  
+  #how_to_type {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+  }
+}

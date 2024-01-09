@@ -1,0 +1,150 @@
+.heros-outer-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  font-size: 20px;
+  background-image: url('/public/Images/nurseryHub/top_blue_cloud.png'),
+    url('/public/Images/nurseryHub/bottom_blue_cloud_lined.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, bottom left;
+  background-size: 45%, 88%;
+}
+
+@media screen and (max-width: 500px) {
+  .heros-outer-container {
+    background-position: top right, bottom 10px left;
+  }
+}
+
+.heros-inner-container {
+  position: relative;
+  width: 100%;
+  top: 30px;
+  margin: 0 auto;
+  background-image: url('/public/Images/nurseryHub/blue_meteors.png');
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: top center;
+  padding-bottom: 15%;
+}
+.heros-div-title {
+  width: 90%;
+  margin: 1% auto;
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 500px) {
+  .heros-div-title {
+    font-size: 4vw;
+  }
+}
+
+.heros-div {
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 7px rgb(83, 205, 203);
+}
+.hero-top-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url('../../public/Images/nurseryHub/herosLine.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.hero-top-container fieldset {
+  width: 30%;
+  padding: 0 10px;
+}
+@media screen and (max-width: 600px) {
+  .hero-top-container fieldset {
+    padding: 0 1%;
+  }
+}
+.top-dropdown-search {
+  width: 30%;
+  padding: 0 10px;
+}
+
+.input-field {
+  width: 100%;
+  background: transparent;
+  background-image: url('/public/Images/nurseryHub/long_input_field.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #44e5dd !important;
+  border: 0;
+  padding: 1% 2%;
+}
+
+.hero-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+.hero-bottom-section {
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+}
+.hero-bottom-section p {
+  padding: 0;
+}
+.hero-counter {
+  box-shadow: inset 0px 0px 10px 5px rgb(83, 205, 203);
+  border-radius: 8px;
+  background-color: #33346e;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100px;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+}
+
+.counter-number {
+  flex: 1;
+  text-align: center;
+}
+.counter-adjust {
+  flex: 1;
+  text-align: center;
+  border-left: 2px solid rgb(83, 205, 203);
+}
+.hero-plus {
+  border-bottom: 2px solid rgb(83, 205, 203);
+}
+.hero-button {
+  margin: 0 2%;
+  width: 150px;
+}
+@media screen and (max-width: 700px) {
+  .hero-button {
+    width: 100px;
+  }
+}
+/* .episodes-div {
+  margin-top: 20%;
+} */
+.exemplary_learning_astro_ziggy {
+  margin: 2% auto -2%;
+  width: 50%;
+  padding-right: 6%;
+}
+@media screen and (max-width: 700px) {
+  .exemplary_learning_astro_ziggy {
+    width: 60%;
+  }
+}
+.hero-image-container {
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+}
+.student-lost-hero {
+  padding-top: 3%;
+}

@@ -1,0 +1,441 @@
+.terms-inner-container {
+  width: 100%;
+	height: auto;
+  position: relative;
+	font-size: 20px;
+  padding-bottom: 2%;
+  background-image: url("/public/Images/home/sky-stars.png");
+	background-repeat: no-repeat;
+	background-position: center top -8.6%;
+	background-size: 100%;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .terms-inner-container {
+    background-image: url("/public/Images/home/sky-stars.png");
+    background-position: center top -6.3%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .terms-inner-container {
+    background-image: url("/public/Images/home/sky-stars.png");
+    background-position: center top -1.8%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .terms-inner-container {
+    background-image: url("/public/Images/home/sky-stars.png");
+    background-position: center top 0.3%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .terms-inner-container {
+    background-image: url("/public/Images/home/sky-stars.png");
+    background-position: center top 0;
+  }
+}
+
+#umbrella_holding_ziggy {
+  right: -7%;
+  top: -12%;
+  width: 14%;
+}
+
+#showing_ziggy {
+  width: 30%;
+}
+
+#error_ziggy {
+  width: 38%;
+}
+
+#disclaimer_ziggy {
+  width: 40%;
+}
+
+#child_holding_ziggy {
+  left: -15%;
+  top: 34%;
+  width: 16%;
+}
+
+#hope_logo_ziggy {
+  width: 28%;
+}
+
+#mailbox {
+  right: -21%;
+  top: 60%;
+  width: 25%;
+}
+
+#no_symbol {
+  left: -50%;
+  top: 33%;
+  width: 29%;
+}
+
+#approved_stamp {
+  right: -30%;
+  top: 21%;
+  width: 30%;
+}
+
+#stamp_book_ziggy {
+  left: -26%;
+  top: 69%;
+  width: 33%;
+}
+
+#account_ziggy {
+  left: -15%;
+  top: 44%;
+  width: 18%;
+}
+
+#coins {
+  left: 0;
+  top: 40%;
+  width: 26%;
+}
+
+#no_cash_ziggy {
+  right: 10%;
+  top: 47%;
+  width: 14%;
+}
+
+#donating_ziggy {
+  left: 10%;
+  top: 51.5%;
+  width: 12%;
+}
+
+#gift_ziggy {
+  right: 12%;
+  top: 55.5%;
+  width: 13%;
+}
+
+#data_safe_ziggy {
+  left: 10%;
+  top: 58%;
+  width: 15%;
+}
+
+#calender_ziggy {
+  right: 0;
+  top: 63%;
+  width: 15%;
+}
+
+#paper_planes {
+  right: 0;
+  bottom: 31%;
+  width: 18%;
+}
+
+#mailbox_ziggy {
+  left: 11%;
+  bottom: 34%;
+  width: 11%;
+}
+
+#unplugging_ziggy {
+  right: -16.7%;
+  bottom: 76%;
+  width: 130%;
+}
+
+#monopoly_ziggy {
+  width: 34%;
+}
+
+#trademark_ziggy {
+  left: -28%;
+  bottom: 62%;
+  width: 24%;
+}
+
+#patented_drawing {
+  right: -25%;
+  bottom: 2%;
+  width: 28%;
+}
+
+#contract_signing_ziggy {
+  right: -16%;
+  bottom: 31%;
+  width: 16%;
+}
+
+#judge_ziggy {
+  left: -16%;
+  bottom: -80%;
+  width: 16%;
+}
+
+#documents {
+  right: 20%;
+  bottom: 61%;
+  width: 11%;
+}
+
+#flag_ball_ziggy {
+  width: 38%;
+}
+
+#ziggy_waiver_stamp {
+  right: -16.7%;
+  bottom: -3%;
+  width: 26%;
+}
+
+#here_to_help_ziggy {
+  left: 6%;
+  width: 44%;
+}
+
+@media screen and (max-width: 1170px) {
+  #calender_ziggy{
+    top: 65%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #mailbox_ziggy {
+    bottom: 31%;
+  }
+
+  #unplugging_ziggy {
+    bottom: 83%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #mailbox_ziggy {
+    bottom: 36%;
+  }
+
+  #calender_ziggy {
+    top: 62%;
+  }
+
+  #unplugging_ziggy {
+    bottom: 60%;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  #mailbox_ziggy {
+    bottom: 34%;
+  }
+
+  #unplugging_ziggy {
+    bottom: 90%;
+  }
+}
+
+@media screen and (max-width: 670px) { 
+  #calender_ziggy {
+    top: 65%;
+  }
+
+  #paper_planes {
+    bottom: 30%;
+  }
+
+  #mailbox_ziggy {
+    bottom: 32%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #judge_ziggy {
+    bottom: -20%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  #calender_ziggy {
+    top: 65%;
+  }
+}
+
+@media screen and (max-width: 425px) {  
+  #umbrella_holding_ziggy {
+    right: -10%;
+    top: -12%;
+    width: 24%;
+  }
+
+  #showing_ziggy {
+    width: 50%;
+  }
+
+  #error_ziggy {
+    width: 50%;
+  }
+
+  #disclaimer_ziggy {
+    width: 50%;
+  }
+
+  #child_holding_ziggy {
+    left: -26%;
+    top: 45%;
+    width: 30%;
+  }
+
+  #hope_logo_ziggy {
+    width: 40%;
+  }
+
+  #mailbox {
+    right: -38%;
+    top: 74%;
+    width: 35%;
+  }
+
+  #no_symbol {
+    width: 39%;
+  }
+
+  #approved_stamp {
+    right: -41%;
+    top: 20%;
+    width: 40%;
+  }
+
+  #stamp_book_ziggy {
+    left: -44%;
+    top: 69%;
+    width: 44%;
+  }
+
+  #account_ziggy {
+    left: -24%;
+    top: 34%;
+    width: 28%;
+  }
+
+  #coins {
+    top: 43%;
+    width: 36%;
+  }
+
+  #no_cash_ziggy {
+    right: 2%;
+    top: 50%;
+    width: 22%;
+  }
+
+  #donating_ziggy {
+    left: 2%;
+    top: 54%;
+    width: 20%;
+  }
+  
+  #gift_ziggy {
+    right: 3%;
+    top: 58%;
+    width: 21%;
+  }
+  
+  #data_safe_ziggy {
+    left: 0;
+    top: 60%;
+    width: 25%;
+  }
+  
+  #calender_ziggy {
+    right: 0;
+    top: 65%;
+    width: 25%;
+  }
+  
+  #paper_planes {
+    right: 0;
+    bottom: 31%;
+    width: 28%;
+  }
+  
+  #mailbox_ziggy {
+    left: 3%;
+    bottom: 29%;
+    width: 18%;
+  }
+
+  #unplugging_ziggy {
+    right: -26%;
+    bottom: 88%;
+    width: 150%;
+  }
+  
+  #monopoly_ziggy {
+    width: 45%;
+  }
+  
+  #trademark_ziggy {
+    left: -44%;
+    bottom: 72%;
+    width: 40%;
+  }
+  
+  #patented_drawing {
+    right: -38%;
+    width: 40%;
+  }
+  
+  #contract_signing_ziggy {
+    right: -25%;
+    bottom: 58%;
+    width: 28%;
+  }
+  
+  #judge_ziggy {
+    left: -26%;
+    bottom: -37%;
+    width: 24%;
+  }
+  
+  #documents {
+    right: 3%;
+    bottom: 70%;
+    width: 18%;
+  }
+  
+  #flag_ball_ziggy {
+    width: 58%;
+  }
+  
+  #ziggy_waiver_stamp {
+    right: -27%;
+    bottom: -1%;
+    width: 36%;
+  }
+  
+  #here_to_help_ziggy {
+    width: 54%;
+  }
+}
+
+@media screen and (max-width: 360px) {  
+  #calender_ziggy {
+    top: 66%;
+  }
+}
+
+@media screen and (max-width: 350px) {  
+  #calender_ziggy {
+    top: 66.5%;
+  }
+
+  #trademark_ziggy {
+    bottom: 80%;
+  }
+}

@@ -1,0 +1,135 @@
+.resources-outer-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  font-size: 20px;
+  background-image: url("/public/Images/nurseryHub/top_blue_cloud.png"), url("/public/Images/nurseryHub/bottom_blue_cloud_lined.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, bottom left;
+  background-size: 45%, 88%;
+}
+
+@media screen and (max-width:500px) {
+  .resources-outer-container {
+    background-position: top right, bottom 10px left;
+  }
+}
+
+.resources-inner-container {
+  position: relative;
+  width: 70%;
+  top: 30px;
+  margin: 0 auto;
+  background-image: url("/public/Images/nurseryHub/blue_meteors.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 8%;
+}
+
+.resource-collection {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .resource-collection {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .resource-collection {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.resource-item {
+  width: 32%;
+  cursor: pointer;
+  transition: all 0.6s ease-out;
+}
+
+.resource-item:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .resource-item {
+    width: 42%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .resource-item {
+    width: 100%;
+  }
+}
+
+.more-to-come {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#desk_ziggy_and_more_to_come {
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  #desk_ziggy_and_more_to_come {
+    width: 80%;
+  }
+}
+
+/* No background for the inner container for each individual resource page */
+.no-bg-inner-container {
+  position: relative;
+  width: 70%;
+  top: 30px;
+  margin: 0 auto;
+  padding-bottom: 8%;
+}
+
+/* Back button to go to additional resources page */
+.back-link {
+  width: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .back-link {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .back-link {
+    width: 30%;
+  }
+}
+
+/* Print mailbox button */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#print_mailbox_document {
+  margin-top: 10px;
+  width: 30%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+@media screen and (max-width: 426px) {
+  #print_mailbox_document {
+    width: 60%;
+  }
+}

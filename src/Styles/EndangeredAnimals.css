@@ -1,0 +1,807 @@
+.endangered-outer-container {
+  width: auto;
+	min-height: 100vh;
+  
+}
+
+.endangered-inner-container {
+  width: 100%;
+	height: auto;
+  position: relative;
+	font-size: 20px;
+  padding-bottom: 2%;
+  background-image: url("/public/Images/home/galaxy.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 50%;
+}
+
+#intro {
+  background-image: url("/public/Images/endangeredAnimal/wave-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+  margin-top: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-container {
+  background-image: url("/public/Images/endangeredAnimal/intro_section.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+  background-position: center;
+  width: 74%;
+  height: 150vh;
+  margin-top: 2%;
+  padding-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-txt {
+  position: relative;
+  width: 60%;
+  margin-top: 16%;
+  text-align: center;
+}
+
+.animals-txt {
+  position: relative;
+  width: 85%;
+  margin-top: 6%;
+}
+
+.intro-txt p {
+  font-size: 0.9em;
+}
+
+.animals-txt p {
+  font-size: 1em;
+}
+
+.intro-txt p, .animals-txt p {
+  font-family: "Cocon-Light";
+  font-weight: normal;
+  color: #fff;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+
+.animals {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animal-heading, .animal-description {
+  display: flex;
+  width: 100%;
+}
+
+.animal-heading {
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 5%;
+  z-index: 3;
+}
+
+.title h1 {
+  position: relative;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.animal-media {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.animal-description {
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+#rabbits .animal-heading {
+  background-image: url("/public/Images/endangeredAnimal/rabbit_leopard_top_bg.png");
+	background-repeat: no-repeat;
+	background-position: top 0 center;
+	background-size: cover;
+}
+
+#rabbits .title {
+  margin-top: 6%;
+}
+
+#rabbits .animal-media {
+  margin: 2% 0 -7%;
+}
+
+#rabbit_island {
+  pointer-events: none;
+  width: 70%;
+  margin: -12% 1% 0 0;
+  z-index: 1;
+}
+
+#rabbit_link {
+  width: 10%;
+  margin-top: 30%;
+  z-index: 3;
+}
+
+#rabbit_video {
+  width: 36%;
+  margin: -2% -30% 0 0;
+  z-index: 2;
+}
+
+#rabbits .animal-description {
+  background-image: url("/public/Images/endangeredAnimal/rabbit_leopard_bottom_bg.png");
+	background-repeat: no-repeat;
+	background-position: bottom 90% center;
+	background-size: cover;
+}
+
+#amur_leopards .animal-heading {
+  background-image: url("/public/Images/endangeredAnimal/rabbit_leopard_top_bg.png");
+	background-repeat: no-repeat;
+	background-position: top 0 center;
+	background-size: cover;
+}
+
+#amur_leopards .title {
+  margin-top: 6%;
+}
+
+#amur_leopards .animal-media {
+  margin: -1% 0 -7%;
+}
+
+#amur_leopard_island {
+  pointer-events: none;
+  width: 72%;
+  margin-top: -6%;
+  z-index: 1;
+}
+
+#amur_leopard_link {
+  width: 10%;
+  margin-top: 41%;
+  z-index: 3;
+}
+
+#amur_leopard_video {
+  width: 36%;
+  margin: 3% -30% 0 0;
+  z-index: 2;
+}
+
+#amur_leopards .animal-description {
+  background-image: url("/public/Images/endangeredAnimal/rabbit_leopard_bottom_bg.png");
+	background-repeat: no-repeat;
+	background-position: bottom 90% center;
+	background-size: cover;
+}
+
+#hammerheads .animal-heading {
+  background-image: url("/public/Images/endangeredAnimal/hammerhead_top_bg.png");
+	background-repeat: no-repeat;
+	background-position: top 58% center;
+	background-size: cover;
+}
+
+#hammerheads .title {
+  margin-top: 6%;
+}
+
+#hammerheads .title h1 {
+  color: #96E9FD;
+}
+
+#hammerheads .animal-media {
+  margin: 0 0 -7%;
+}
+
+#hammerhead_island {
+  pointer-events: none;
+  width: 72%;
+  margin: -6% 6% 0 0;
+  z-index: 1;
+}
+
+#hammerhead_link {
+  width: 10%;
+  margin-top: 43%;
+  z-index: 3;
+}
+
+#hammerhead_video {
+  width: 36%;
+  margin: 1% -30% 0 0;
+  z-index: 2;
+}
+
+#hammerheads .animal-description {
+  background-image: url("/public/Images/endangeredAnimal/hammerhead_bottom_bg.png");
+	background-repeat: no-repeat;
+	background-position: bottom 90% center;
+	background-size: cover;
+}
+
+#hammerheads .animals-txt {
+  margin-top: 7%;
+}
+
+#blue_whales .animal-heading {
+  background-image: url("/public/Images/endangeredAnimal/blue_whale_top_bg.png");
+	background-repeat: no-repeat;
+	background-position: top 51% center;
+	background-size: cover;
+}
+
+#blue_whales .title {
+  margin-top: 6%;
+}
+
+#blue_whales .title h1 {
+  color: #96E9FD;
+}
+
+#blue_whales .animal-media {
+  margin: -2% 0 -6%;
+}
+
+#blue_whale_island {
+  pointer-events: none;
+  width: 68%;
+  margin-top: -6%;
+  z-index: 1;
+}
+
+#blue_whale_link {
+  width: 10%;
+  margin-top: 36%;
+  z-index: 3;
+}
+
+#blue_whale_video {
+  width: 36%;
+  margin: 3% -30% 0 0;
+  z-index: 2;
+}
+
+#blue_whales .animal-description {
+  background-image: url("/public/Images/endangeredAnimal/blue_whale_bottom_bg.png");
+	background-repeat: no-repeat;
+	background-position: bottom 90% center;
+	background-size: cover;
+}
+
+#blue_whales .animals-txt {
+  margin-top: 5%;
+}
+
+#black_footed_ferrets .animal-heading {
+  background-image: url("/public/Images/endangeredAnimal/black_footed_ferret_top_bg.png");
+	background-repeat: no-repeat;
+	background-position: top 35% center;
+	background-size: cover;
+}
+
+#black_footed_ferrets .title {
+  margin-top: 6%;
+}
+
+#black_footed_ferrets .title h1 {
+  color: #D59531;
+}
+
+#black_footed_ferrets .animal-media {
+  margin: 0 0 -7%;
+}
+
+#black_footed_ferret_island {
+  pointer-events: none;
+  width: 70%;
+  margin: -3% 4% 0 0;
+  z-index: 1;
+}
+
+#black_footed_ferret_link {
+  width: 10%;
+  margin-top: 40%;
+  z-index: 3;
+}
+
+#black_footed_ferret_video {
+  width: 36%;
+  margin: 1% -30% 0 0;
+  z-index: 2;
+}
+
+#black_footed_ferrets .animal-description {
+  background-image: url("/public/Images/endangeredAnimal/black_footed_ferret_bottom_bg.png");
+	background-repeat: no-repeat;
+	background-position: bottom 90% center;
+	background-size: cover;
+}
+
+#tigers .animal-heading {
+  background-image: url("/public/Images/endangeredAnimal/tiger_top_bg.png");
+	background-repeat: no-repeat;
+	background-position: top 48% center;
+	background-size: cover;
+}
+
+#tigers .title {
+  margin-top: 6%;
+}
+
+#tigers .title h1 {
+  color: #72B760;
+}
+
+#tigers .animal-media {
+  margin: 1% 0 -8%;
+}
+
+#tiger_island {
+  pointer-events: none;
+  width: 70%;
+  margin: 1% 1% 0 0;
+  z-index: 1;
+}
+
+#tiger_link {
+  width: 10%;
+  margin-top: 45%;
+  z-index: 3;
+}
+
+#tiger_video {
+  width: 36%;
+  margin: 0% -30% 0 0;
+  z-index: 2;
+}
+
+#tigers .animal-description {
+  background-image: url("/public/Images/endangeredAnimal/tiger_bottom_bg.png");
+	background-repeat: no-repeat;
+	background-position: bottom 90% center;
+	background-size: cover;
+}
+
+#sea_turtles .animal-heading {
+  background-image: url("/public/Images/endangeredAnimal/sea_turtle_top_bg.png");
+	background-repeat: no-repeat;
+	background-position: top 39% center;
+	background-size: cover;
+}
+
+#sea_turtles .title {
+  margin-top: 6%;
+}
+
+#sea_turtles .title h1 {
+  color: #96E9FD;
+}
+
+#sea_turtles .animal-media {
+  margin: 0 0 -9%;
+}
+
+#sea_turtle_island {
+  pointer-events: none;
+  width: 70%;
+  margin-top: -12%;
+  z-index: 1;
+}
+
+#sea_turtle_link {
+  width: 10%;
+  margin-top: 35%;
+  z-index: 3;
+}
+
+#sea_turtle_video {
+  width: 36%;
+  margin: 1% -30% 0 0;
+  z-index: 2;
+}
+
+#sea_turtles .animal-description {
+  background-image: url("/public/Images/endangeredAnimal/sea_turtle_bottom_bg.png");
+	background-repeat: no-repeat;
+	background-position: bottom 90% center;
+	background-size: cover;
+}
+
+#sea_turtles .animals-txt {
+  margin-top: 4%;
+}
+
+#mountain_gorillas .animal-heading {
+  background-image: url("/public/Images/endangeredAnimal/mountain_gorilla_top_bg.png");
+	background-repeat: no-repeat;
+	background-position: top 16% center;
+	background-size: cover;
+}
+
+#mountain_gorillas .title {
+  margin-top: 6%;
+}
+
+#mountain_gorillas .title h1 {
+  color: #72B760;
+}
+
+#mountain_gorillas .animal-media {
+  margin: 0 0 -11%;
+}
+
+#mountain_gorilla_island {
+  pointer-events: none;
+  width: 78%;
+  margin-top: -8%;
+  z-index: 1;
+}
+
+#mountain_gorilla_link {
+  width: 10%;
+  margin-top: 38%;
+  z-index: 3;
+}
+
+#mountain_gorilla_video {
+  width: 36%;
+  margin: -1% -30% 0 0;
+  z-index: 2;
+}
+
+#mountain_gorillas .animal-description {
+  background-image: url("/public/Images/endangeredAnimal/mountain_gorilla_bottom_bg.png");
+	background-repeat: no-repeat;
+	background-position: bottom 90% center;
+	background-size: cover;
+}
+
+#pandas .animal-heading {
+  background-image: url("/public/Images/endangeredAnimal/panda_top_bg.png");
+	background-repeat: no-repeat;
+	background-position: top 18% center;
+	background-size: cover;
+}
+
+#pandas .title {
+  margin-top: 6%;
+}
+
+#pandas .title h1 {
+  color: #72B760;
+}
+
+#pandas .animal-media {
+  margin: 0 0 -12%;
+}
+
+#panda_island {
+  pointer-events: none;
+  width: 66%;
+  margin-top: -11%;
+  z-index: 1;
+}
+
+#panda_link {
+  width: 10%;
+  margin-top: 41%;
+  z-index: 3;
+}
+
+#panda_video {
+  width: 36%;
+  margin: 1% -30% 0 0;
+  z-index: 2;
+}
+
+#pandas .animal-description {
+  background-image: url("/public/Images/endangeredAnimal/panda_bottom_bg.png");
+	background-repeat: no-repeat;
+	background-position: bottom 90% center;
+	background-size: cover;
+}
+
+#sumatran_rhinos .animal-heading {
+  background-image: url("/public/Images/endangeredAnimal/sumatran_rhino_top_bg.png");
+	background-repeat: no-repeat;
+	background-position: top 9% center;
+	background-size: cover;
+}
+
+#sumatran_rhinos .title {
+  margin-top: 6%;
+}
+
+#sumatran_rhinos .title h1 {
+  color: #72B760;
+}
+
+#sumatran_rhinos .animal-media {
+  margin: 0 0 -12%;
+}
+
+#sumatran_rhino_island {
+  pointer-events: none;
+  width: 78%;
+  margin: -10% 5% 0 0;
+  z-index: 1;
+}
+
+#sumatran_rhino_link {
+  width: 10%;
+  margin-top: 40%;
+  z-index: 3;
+}
+
+#sumatran_rhino_video {
+  width: 36%;
+  margin: 1% -30% 0 0;
+  z-index: 2;
+}
+
+#sumatran_rhinos .animal-description {
+  background-image: url("/public/Images/endangeredAnimal/sumatran_rhino_bottom_bg.png");
+	background-repeat: no-repeat;
+	background-position: bottom 90% center;
+	background-size: cover;
+}
+
+@media screen and (max-width: 1400px) {
+  .endangered-inner-container {
+    background-image: url("/public/Images/home/galaxy.png");
+    background-position: top right;
+  }
+
+  .intro-container {
+    height: 136vh;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .intro-txt {
+    margin-top: 18%;
+  }
+
+  .intro-txt p {
+    font-size: 0.90em;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .intro-container {
+    height: 140vh;
+  }
+
+  .intro-txt p {
+    font-size: 0.80em;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .intro-container {
+    width: 84%;
+  }
+
+  .intro-txt {
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .intro-txt {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .intro-container {
+    width: 100%;
+    height: 142vh;
+  }
+
+  .intro-txt {
+    margin-top: 20%;
+  }
+
+  .intro-txt p {
+    font-size: 0.90em;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #rabbit_link {
+    width: 15%;
+  }
+
+  #amur_leopard_link {
+    width: 15%;
+  }
+
+  #hammerhead_link {
+    width: 15%;
+  }
+  
+  #blue_whale_link {
+    width: 15%;
+    margin-top: 35%;
+  }
+
+  #black_footed_ferret_link {
+    width: 15%;
+  }
+  
+  #tiger_link {
+    width: 15%;
+    margin-top: 44%;
+  }
+
+  #sea_turtle_link {
+    width: 15%;
+    margin-top: 34%;
+  }
+
+  #mountain_gorilla_link {
+    width: 15%;
+    margin-top: 37%;
+  }
+
+  #panda_link {
+    width: 15%;
+    margin-top: 40%;
+  }
+
+  #sumatran_rhino_link {
+    width: 15%;
+    margin-top: 40%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .animal-heading {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .intro-container {
+    height: 136vh;
+  }
+  
+  .intro-txt {
+    margin-top: 15%;
+  }
+  
+  .intro-txt p {
+    font-size: 0.80em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .intro-container {
+    height: 120vh;
+  }
+
+  .intro-txt p {
+    font-size: 0.70em;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 840px) {  
+  .intro-container {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-width: 740px) {  
+  .intro-container {
+    height: 100vh;
+  }
+
+  .intro-txt p {
+    font-size: 0.60em;
+  }
+}
+
+@media screen and (max-width: 720px) {  
+  .intro-container {
+    height: 97vh;
+  }
+}
+
+@media screen and (max-width: 651px) { 
+  .intro-container {
+    height: 95vh;
+  }
+
+  .intro-txt {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .endangered-inner-container {
+    background-image: url("/public/Images/home/galaxy.png");
+    background-position: top right;
+  }
+
+  #intro {
+    margin-top: 80px;
+  }
+  
+  .intro-container {
+    height: 82vh;
+  }
+
+  .intro-txt p {
+    font-size: 0.50em;
+  }
+}
+
+@media screen and (max-width: 580px) { 
+  .intro-container {
+    height: 75vh;
+  }
+  
+  .animals-txt {
+    width: 65%;
+  }
+
+  .intro-txt p, .animals-txt p {
+    font-size: 0.50em;
+  }
+}
+
+@media screen and (max-width: 480px) { 
+  .intro-container {
+    height: 70vh;
+  }
+
+  .intro-txt {
+    width: 65%;
+  }
+
+  .intro-txt p {
+    font-size: 0.40em;
+  }
+}
+
+@media screen and (max-width: 400px) { 
+  .intro-container {
+    height: 60vh;
+  }
+
+  .intro-txt p {
+    font-size: 0.35em;
+  }
+}
+
+@media screen and (max-width: 370px) { 
+  .intro-txt p {
+    font-size: 0.32em;
+  }
+}
+
+@media screen and (max-width: 330px) { 
+  .intro-container {
+    height: 55vh;
+  }
+}

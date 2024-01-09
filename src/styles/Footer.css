@@ -1,0 +1,293 @@
+.homepage-footer-bg {
+  width: 76%;
+  margin: 0 auto;
+  background-image: url("../../public/Images/footer/bottom_rainbow.png");
+  background-repeat: no-repeat;
+  background-position: top 94% left 60%;
+  background-size: 118% 98%;
+  padding: 11% 0;
+}
+
+.alternate-footer-bg {
+  width: 100%;
+  margin: -12% auto;
+  background-image: url("../../public/Images/footer/footer_cloud.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 13% 0 9%;
+}
+
+.no-bg-footer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.no-bg-footer .footer-wrapper {
+  top: 20px;
+}
+
+@media screen and (max-width: 1248px) {
+  .alternate-footer-bg {
+    padding: 11% 0 9%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .homepage-footer-bg {
+    margin: -40px auto 0;
+    background-size: cover;
+  }
+
+  .alternate-footer-bg .footer-wrapper {
+    top: 50px;
+  }
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  top: 60px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  margin-left: 5%;
+}
+
+.footer-segment {
+  width: 34%;
+}
+
+.footer-segment li {
+  list-style: none;
+}
+
+.link-heading, .access-link {
+  color: #a5fffb;
+}
+
+.link-heading {
+  font-family: "Cocon-Bold";
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin-bottom: .50em;
+  padding-left: 32px;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.access-link {
+  display: inline-block;
+  font-family: "Cocon-Light";
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+  line-height: 1.8;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.access-link:hover {
+  transform: translate(0, -5px);
+  color: #a5fffb;
+}
+
+@media screen and (max-width: 890px) {
+  .access-link {
+    display: block;
+  }
+  
+  .access-link:hover {
+    transform: translate(0, 0);
+    background: #1e3e7a;
+    color: #a5fffb;
+  }
+}
+
+.social-icon {
+  width: 30%;
+}
+
+.socials-img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+  .link-heading {
+    font-size: 1.3em;
+  }
+
+  .access-link { 
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1346px) {
+  .footer-content {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1248px) {
+  .footer-wrapper {
+    top: 70px;
+    width: 90%;
+  }
+  
+  .link-heading {
+    font-size: 1.2em;
+  }
+
+  .access-link { 
+    font-size: .9em;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  .footer-wrapper {
+    width: 90%;
+  }
+
+  .footer-content {
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .footer-wrapper {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .footer-wrapper {
+    width: 100%;
+    left: 0;
+    top: 200px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-left: 0;
+  }
+
+  .footer-segment {
+    text-align: center;
+    width: 100%;
+  }
+
+  .link-heading {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .footer-segment ul {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 590px) {
+  .footer-wrapper {
+    top: 220px;
+  }
+}
+
+/* Charity Details */
+.charity-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 25px;
+}
+
+.charity-socials {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: -4px 0 0 30px;
+  width: 140px;
+}
+
+.charity-status {
+  font-size: 0.9em;
+  font-family: "Inter-Regular";
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1248px) {
+  .charity-details {
+    top: 40px;
+  }
+
+  .charity-socials {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .charity-details {
+    top: 0;
+  }
+
+  .charity-socials {
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .charity-socials {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 651px) {
+  .charity-details {
+    top: 0;
+  }
+  
+  .charity-socials {
+    gap: 10px;
+    width: 120px;
+  }
+
+  .charity-status {
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .charity-details {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .charity-details {
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .charity-details {
+    font-size: 0.5em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .charity-details {
+    font-size: 0.4em;
+  }
+}

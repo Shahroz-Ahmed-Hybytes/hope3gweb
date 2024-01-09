@@ -1,0 +1,352 @@
+.fundraising-inner-container {
+  width: 100%;
+	height: auto;
+  position: relative;
+	font-size: 20px;
+  padding-bottom: 2%;
+  background-image: url("/public/Images/home/sky-stars.png");
+	background-repeat: no-repeat;
+	background-position: center top -8.8%;
+	background-size: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  .fundraising-inner-container {
+    background-image: url("/public/Images/home/sky-stars.png");
+    background-position: center top -6.3%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .fundraising-inner-container {
+    background-image: url("/public/Images/home/sky-stars.png");
+    background-position: center top -0.7%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .fundraising-inner-container {
+    background-image: url("/public/Images/home/sky-stars.png");
+    background-position: center top -0.8%;
+  }
+}
+
+#coin_safe {
+  left: -5%;
+  top: 28%;
+  width: 10%;
+}
+
+#money_ziggy {
+  top: 34%;
+  right: -9%;
+  width: 12%;
+}
+
+#writing_ziggy {
+  left: -25%;
+  top: -17%;
+  width: 27%;
+}
+
+#stars {
+  top: 46%;
+  right: -16%;
+  width: 30%;
+}
+
+#fundraising_book_reading_ziggy {
+  left: -25%;
+  top: 2%;
+  width: 38%;
+}
+
+#rules_ziggy {
+  right: -50%;
+  top: -8%;
+  width: 32%;
+}
+
+#showing_ziggy {
+  left: -50%;
+  top: 26%;
+  width: 20%;
+}
+
+#rainbow_shadow {
+  left: -50%;
+  top: -4%;
+  width: 100%;
+}
+
+#values_coin_ziggy {
+  right: -50%;
+  top: -4%;
+  width: 30%;
+}
+
+#graffiti_ziggy {
+  right: -50%;
+  top: 50%;
+  width: 30%;
+}
+
+#fundraising_posing_ziggy {
+  width: 50%;
+}
+
+#strategy_thinking_ziggy {
+  left: -30%;
+  top: -11%;
+  width: 53%;
+}
+
+#our_ethics_ziggy {
+  right: -50%;
+  top: 2%;
+  width: 28%;
+}
+
+#refusal_gift_ziggy {
+  right: -50%;
+  top: 4%;
+  width: 25%;
+}
+
+#gift_box_ziggy{
+  left: -50%;
+  bottom: 46%;
+  width: 30%;
+}
+
+#fundraising_no_symbol {
+  right: -50%;
+  bottom: 17%;
+  width: 18%;
+}
+
+#name_reading_ziggy {
+  left: -25%;
+  bottom: 87%;
+  width: 25%;
+}
+
+#data_collecting_ziggy {
+  right: -50%;
+  bottom: -6%;
+  width: 34%;
+}
+
+#anonymous_ziggy {
+  left: -25%;
+  bottom: 44%;
+  width: 22%;
+}
+
+#processor_ziggy {
+  left: -26%;
+  bottom: 48%;
+  width: 24%;
+}
+
+#file_taking_ziggy {
+  right: -26%;
+  bottom: 83%;
+  width: 22%;
+}
+
+#fundraising_gavel {
+  left: -27%;
+  bottom: 46%;
+  width: 22%;
+}
+
+#flags_ziggy {
+  right: -25%;
+  bottom: 19%;
+  width: 22%;
+}
+
+#complaint_ziggy {
+  right: 6%;
+  bottom: 89%;
+  width: 22%;
+}
+
+#phone_holding_ziggy {
+  left: -28%;
+  bottom: -2%;
+  width: 24%;
+}
+
+@media screen and (max-width: 980px) {
+  #complaint_ziggy {
+    bottom: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #complaint_ziggy {
+    bottom: 92%;
+  }
+}
+
+@media screen and (max-width: 425px) {  
+  #coin_safe {
+    left: -16%;
+    top: 28%;
+    width: 24%;
+  }
+  
+  #money_ziggy {
+    top: 34%;
+    right: -18%;
+    width: 24%;
+  }
+  
+  #writing_ziggy {
+    left: -37%;
+    top: -8%;
+    width: 40%;
+  }
+  
+  #stars {
+    top: 49%;
+    right: -29%;
+    width: 50%;
+  }
+  
+  #fundraising_book_reading_ziggy {
+    left: -38%;
+    top: 2%;
+    width: 58%;
+  }
+  
+  #rules_ziggy {
+    right: -50%;
+    top: -6%;
+    width: 52%;
+  }
+  
+  #showing_ziggy {
+    left: -50%;
+    top: 29%;
+    width: 40%;
+  }
+  
+  #rainbow_shadow {
+    left: -50%;
+    top: -2%;
+    width: 130%;
+  }
+  
+  #values_coin_ziggy {
+    right: -50%;
+    top: -4%;
+    width: 50%;
+  }
+  
+  #graffiti_ziggy {
+    right: -50%;
+    top: 52%;
+    width: 50%;
+  }
+  
+  #fundraising_posing_ziggy {
+    width: 70%;
+  }
+  
+  #strategy_thinking_ziggy {
+    left: -51%;
+    top: -10%;
+    width: 75%;
+  }
+  
+  #our_ethics_ziggy {
+    right: -50%;
+    top: 0;
+    width: 48%;
+  }
+  
+  #refusal_gift_ziggy {
+    right: -50%;
+    top: 2%;
+    width: 45%;
+  }
+  
+  #gift_box_ziggy{
+    left: -50%;
+    bottom: 55%;
+    width: 50%;
+  }
+  
+  #fundraising_no_symbol {
+    right: -50%;
+    bottom: 18%;
+    width: 38%;
+  }
+  
+  #name_reading_ziggy {
+    left: -44%;
+    bottom: 91%;
+    width: 45%;
+  }
+  
+  #data_collecting_ziggy {
+    right: -50%;
+    bottom: -1%;
+    width: 60%;
+  }
+  
+  #anonymous_ziggy {
+    left: -37%;
+    bottom: 37%;
+    width: 45%;
+  }
+  
+  #processor_ziggy {
+    left: -42%;
+    bottom: 55%;
+    width: 45%;
+  }
+  
+  #file_taking_ziggy {
+    right: -48%;
+    bottom: 86%;
+    width: 42%;
+  }
+  
+  #fundraising_gavel {
+    left: -46%;
+    bottom: 47%;
+    width: 42%;
+  }
+  
+  #flags_ziggy {
+    right: -46%;
+    bottom: 19%;
+    width: 44%;
+  }
+  
+  #complaint_ziggy {
+    right: -15%;
+    bottom: 92%;
+    width: 39%;
+  }
+
+  #phone_holding_ziggy {
+    left: -46%;
+    bottom: 30%;
+    width: 44%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #complaint_ziggy {
+    bottom: 94%;
+  }
+
+  #strategy_thinking_ziggy {
+    top: -7%;
+  }
+}

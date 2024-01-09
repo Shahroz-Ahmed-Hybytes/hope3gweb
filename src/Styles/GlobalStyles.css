@@ -1,0 +1,224 @@
+/* Override browser default */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0e1655;
+  color: #fff;
+  height: 100%;
+}
+
+/* Include padding and border in element width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Added fonts */
+@font-face {
+  font-family: 'Cocon-Bold';
+  src: local('Cocon-Bold'),
+    url('/public/fonts/Cocon-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Cocon-Light';
+  src: local('Cocon-Light'),
+    url('/public/fonts/Cocon-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-SemiBold';
+  src: local('Roboto-SemiBold'),
+    url('/public/fonts/Roboto-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: local('Roboto-Medium'),
+    url('/public/fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'),
+    url('/public/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+/* Main content within containers on certain pages */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  /* padding-top: 120px; */
+}
+
+/* Heading styles */
+h1 {
+  font-family: 'Roboto-SemiBold';
+  color: #9d5293;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h2,
+h3 {
+  font-family: 'Roboto-Medium';
+}
+
+h2 {
+  color: #93fefc;
+}
+
+h3 {
+  color: #fff;
+}
+
+/* Styles for paragraphs, lists and address */
+p,
+ul,
+ol,
+address {
+  font-family: 'Roboto-Regular';
+  font-weight: bold;
+  color: #fff;
+}
+
+p,
+ul.list-content,
+ol.list-content {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.list-spacing > li:first-child {
+  margin-bottom: 4em;
+}
+
+.list-no-spacing > li {
+  margin-bottom: 0;
+}
+
+ol > li {
+  margin-bottom: 1em;
+}
+
+li {
+  text-align: left;
+  display: list-item;
+}
+
+.slim-list {
+  width: 95%;
+}
+
+.indented-list {
+  padding-left: 10%;
+}
+
+/* Image positions */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+/* Image alignments */
+.centerImg {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin-bottom: 1%;
+}
+
+.sideImg {
+  position: relative;
+}
+
+/* Sizing for all content images */
+.img-size {
+  width: 100%;
+}
+
+/* Widths for different blocks of text */
+.text-block {
+  width: 75%;
+}
+
+.slim-text-block {
+  width: 50%;
+}
+
+.slimmer-text-block {
+  width: 40%;
+}
+
+/* Spacing above or below blocks of text */
+.top-spacing {
+  margin-top: 3%;
+}
+
+.bottom-spacing {
+  margin-bottom: 6%;
+}
+
+/* Centering text */
+.centered-text {
+  text-align: center;
+}
+
+/* bottom spacing for headings */
+.heading-bottom-spacing {
+  margin-bottom: 4%;
+}
+
+/* Box styles for introduction on the legal pages */
+.policy-intro, .env-policy-intro  {
+  background: rgb(76, 91, 123);
+  background: rgb(76, 91, 123, 0.5);
+  border-radius: 60px;
+  box-shadow: inset 0 15px 30px rgb(255 255 255 / 50%), 8px 8px 10px 0px rgb(0 0 0 / 30%);
+  width: 70%;
+  position: relative;
+  text-align: center;
+}
+
+.policy-intro {
+  padding: 2% 4%;
+  margin-bottom: 2%;
+}
+
+.env-policy-intro {
+  padding: 12% 4% 0;
+  margin-bottom: 3%;
+}
+
+/* Media quires */
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 1em;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p,
+  ul.list-content,
+  ol.list-content {
+    font-size: 0.6em;
+  }
+
+  ul.list-content,
+  ol.list-content,
+  .list-content ul {
+    padding-left: 15px;
+  }
+}

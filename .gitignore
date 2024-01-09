@@ -1,0 +1,20 @@
+node_modules
+.eslintcache
+node_modules/.cache
+node_modules
+# ./env
+./DS_Store
+build/*
+
+public/Images
+public/*
+public/Images/aboutUs/mobile/ZiggysHouseModel_02.fbx
+public/Images/aboutUs/mobile/ZiggysHouseModel_02.fbx
+public/Images/aboutUs/mobile/ZiggysHouseModel_02.fbx
+public/Images/aboutUs/mobile/ZiggysHouseModel_02.fbx
+public/Images/aboutUs/mobile/ZiggysHouseModel_02.fbx
+public/Images/aboutUs/mobile/ZiggysHouseModel_02.fbx
+public/Images/aboutUs/mobile/ZiggysHouseModel_02.fbx
+public/Images/aboutUs/mobile/ZiggysHouseModel_02.fbx
+public/Images/aboutUs/mobile/ZiggysHouseModel_02.fbx
+public/Images/aboutUs/mobile/ZiggysHouseModel_02.fbx

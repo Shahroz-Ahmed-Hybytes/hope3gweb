@@ -1,0 +1,67 @@
+/* .button-group{
+    width:100%
+} */
+
+.course {
+  position: relative;
+  color: #A5FFFB;
+  background-color: transparent;
+  box-shadow: inset 0px 0px 10px 5px #44E5DD;
+  border-radius: 8px;
+  padding: 30px 0px 30px 70px;
+  text-align: left;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.course:hover {
+  color: #0E1655;
+  background-color: #44E5DD;
+}
+
+.course-donate {
+  position: relative;
+  color: #E4C6F8;
+  background-color: transparent;
+  box-shadow: inset 0px 0px 10px 5px #9D3DFD;
+  border-radius: 8px;
+  padding: 30px 0px 30px 70px;
+  text-align: left;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.play-icon {
+  position: absolute;
+  top:0;
+  right: 0;
+  margin: 10px 15px 0px 0px;
+  box-shadow: inset 0px 0px 10px 4px #44E5DD;
+  padding: 15px 30px;
+  border-radius: 8px;
+}
+
+.play-icon:hover {
+  color: #0E1655;
+  background-color: #44E5DD;
+}
+
+/* .btn-outline-dark:hover {
+  color: #0E1655;
+  background-color: #44E5DD;
+} */
+
+.add-icon {
+  color: #E4C6F8;
+  box-shadow: inset 0px 0px 10px 5px #9D3DFD;
+  background-color: transparent;
+  border-radius: 8px;
+  margin: 6px 0px 1px 0px;
+  border: 0px;
+  padding: 0px 30px;
+}
+
+.add-icon:hover {
+  color: #9D3DFD;
+  background-color: #E4C6F8;
+}

@@ -1,0 +1,246 @@
+.learn-more-title {
+  font-size: 1.6em;
+  color: #b366d4;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .learn-more-title {
+    font-size: 1.2em;
+  }
+}
+
+.learn-more-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background-image: url('/public/Images/learnMore/learn_more_ziggys_on_earth.png'),
+    url('/public/Images/learnMore/learn_more_galaxy_rocket.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 50% left, top 55% right;
+  background-size: 26%, 17%;
+}
+
+@media screen and (max-width: 1280px) {
+  .learn-more-container {
+    background-position: top 100% left, top -10% right;
+    background-size: 32%, 22%;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .learn-more-container {
+    background-image: url('/public/Images/learnMore/learn_more_galaxy_rocket.png');
+    background-repeat: no-repeat;
+    background-position: top -10% right;
+    background-size: 22%;
+  }
+}
+
+.learn-more-form-container {
+  width: 90%;
+  background: transparent;
+  background-image: url("/public/Images/learnMore/learn_more_form_bg.png");
+  background-repeat: no-repeat;
+  background-size: 106% 103%;
+  background-position: center;
+  border-radius: 40px;
+  padding: 6% 12%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1120px) {
+  .learn-more-form-container {
+    width: 150%;
+    background-size: 106% 104%;
+    padding: 12%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .learn-more-form-container {
+    width: 200%;
+    padding: 20% 12%;
+  }
+}
+
+.learn-more-short-form-input {
+  background: transparent;
+  background-image: url("/public/Images/learnMore/learn_more_short_input_field.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #b366d4 !important;
+  border: 0;
+  z-index: 1;
+  padding: 0.700rem 0.75rem;
+}
+
+@media screen and (max-width: 767px) {
+  .learn-more-short-form-input {
+    background-image: url("/public/Images/learnMore/learn_more_long_input_field.png");
+  }
+}
+
+.learn-more-long-form-input {
+  background: transparent;
+  background-image: url("/public/Images/learnMore/learn_more_long_input_field.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #b366d4 !important;
+  border: 0;
+  z-index: 1;
+  padding: 0.700rem 0.75rem;
+}
+
+.learn-more-form-dropdown {
+  background-color: transparent;
+  background-image: url("/public/Images/learnMore/learn_more_dropdown_field.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #b366d4 !important;
+  border: 0;
+  z-index: 1;
+  padding: 0.700rem 0.75rem;
+}
+
+select.learn-more-form-dropdown option {
+  background: #0e1655;
+}
+
+.learn-more-short-form-input:focus, .learn-more-long-form-input:focus, .learn-more-form-dropdown:focus {
+  background-color: transparent;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.learn-more-error-msg {
+  color: #b366d4;
+  font-size: 12px;
+}
+
+#telephone_ziggy {
+  width: 15%;
+  right: 12%;
+  top: 8%;
+  z-index: 1;
+}
+
+#reading_ziggy {
+  width: 15%;
+  right: 19%;
+  top: 72%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1120px) {
+  #telephone_ziggy {
+    width: 13%;
+    right: 0;
+    top: 19%;
+  }
+
+  #reading_ziggy {
+    right: 5%;
+    top: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #telephone_ziggy, #reading_ziggy {
+    display: none;
+  }
+}
+
+.firstAndLastNames {
+  display: inherit;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 500px) {
+  .firstAndLastNames {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.formLabel {
+  color: #a5fffb;
+  margin-right: 10px;
+}
+
+.formInput {
+  width: 150px;
+}
+
+.button1 {
+  background: #8938e8;
+  mix-blend-mode: normal;
+  box-shadow: inset -7px 43px 64px -15px rgba(76, 216, 222, 0.95);
+  margin-bottom: 400px;
+  margin-top: 20px;
+}
+
+.submit-button {
+  width: 30%;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background: transparent;
+}
+
+.submit-button:focus {
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.error {
+  color: #fc8181;
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 0.25rem;
+}
+
+.row-cols-lg-2 > .col {
+  width: 70%;
+}
+
+/* Feedback page styles */
+
+.learn-feed-inner-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background-image: url('/public/Images/learnMore/learn_more_ziggys_on_earth.png'),
+    url('/public/Images/learnMore/learn_more_galaxy_rocket.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 50% left, top 55% right;
+  background-size: 29%, 20%;
+}
+
+.learn-more-feedback-img {
+  width: 50%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  position: relative;
+  left: 4%;
+}
+
+@media (max-width: 990px) {
+  .learn-more-feedback-img {
+    width: 70%;
+  }
+}

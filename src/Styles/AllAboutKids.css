@@ -1,0 +1,426 @@
+.all-kids-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 25%;
+  background-color: #0e1655;
+  background-image: url('/public/Images/home/galaxy.png');
+  background-repeat: no-repeat;
+  background-position: top -3% right;
+  background-size: 50%;
+}
+
+@media screen and (max-width: 1180px) {
+  .all-kids-container {
+    background-position: top -2% right;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .all-kids-container {
+    background-position: top -1.5% right;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .all-kids-container {
+    background-position: top -1.1% right;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .all-kids-container {
+    background-position: top -1.5% right;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .all-kids-container {
+    background-position: top -0.9% right;
+  }
+}
+
+@media screen and (max-width: 366px) {
+  .all-kids-container {
+    background-position: top -0.8% right;
+  }
+}
+
+.title_kids {
+  margin-top: 7%;
+  margin-bottom: 5%;
+  position: relative;
+  z-index: 1;
+}
+
+#learning_rainbow_ziggy {
+  width: 170%;
+  left: -40%;
+  top: -212%;
+}
+
+#ziggy_hand_app {
+  width: 38%;
+  right: -50%;
+  top: 15%;
+}
+
+#open_book {
+  width: 40%;
+  left: -44%;
+  top: -6%;
+}
+
+#kids_child_holding_ziggy {
+  width: 32%;
+  right: -42%;
+  top: 13%;
+}
+
+#imagining_ziggy {
+  width: 36%;
+  left: -42%;
+  top: 72%;
+}
+
+#kids_energy_saving_ziggy {
+  width: 58%;
+  right: -50%;
+  top: 86%;
+}
+
+#here_to_help_ziggy {
+  width: 40%;
+}
+
+#ziggys_services {
+  width: 60%;
+}
+
+#coin_dropping_ziggy {
+  width: 35%;
+  left: -42%;
+  top: -20%;
+}
+
+#childish_drawing {
+  width: 30%;
+  right: -31%;
+  top: 31%;
+}
+
+#origami {
+  width: 60%;
+}
+
+#kids_coins {
+  width: 56%;
+  left: -44%;
+  top: -6%;
+}
+
+#depositing_ziggy {
+  width: 25%;
+  right: -30%;
+  top: 3%;
+}
+
+#piggy_bank_ziggy {
+  width: 25%;
+  left: -35%;
+  top: 46%;
+}
+
+#benefits_ziggy {
+  width: 30%;
+  left: -38%;
+  top: 16%;
+}
+
+#ziggys_on_world {
+  width: 40%;
+  right: -50%;
+  top: 10%;
+}
+
+#free_gift_ziggy {
+  width: 16%;
+  right: -24%;
+  top: 28%;
+}
+
+#how_to_access_lessons {
+  display: flex;
+  justify-content: center;
+}
+
+#how_to_access_lessons img {
+  width: 140%;
+}
+
+#access_train {
+  width: 42%;
+  right: -38%;
+  top: -41%;
+}
+
+#account_rainbow_ziggy {
+  width: 65%;
+  left: -37%;
+  top: -20%;
+}
+
+#kids_writing_ziggy {
+  width: 35%;
+  right: -30%;
+  top: 43%;
+}
+
+#mailboxZiggy {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  margin-top: 3%;
+}
+
+#dashed_line {
+  width: 42%;
+  left: -50%;
+  top: -90%;
+}
+
+#writing_message_ziggy {
+  width: 25%;
+  right: -28%;
+  top: 21%;
+}
+
+#messageZiggy {
+  display: flex;
+  width: 70%;
+  margin-top: -8%;
+  margin-left: -20%;
+}
+
+#footprints {
+  width: 24%;
+  left: -31%;
+  top: 24%;
+}
+
+#kids_staircase_ziggy {
+  width: 40%;
+  right: -39%;
+  top: -4%;
+}
+
+#no_stealing_ziggys {
+  width: 30%;
+  left: -34%;
+  top: 82%;
+}
+
+#camera_dolly_ziggy {
+  width: 30%;
+  right: -50%;
+  top: 83%;
+}
+
+#skin_colour_tone_ziggys {
+  width: 35%;
+  left: -38%;
+  top: -3%;
+}
+
+#rainbow_on_ziggy_island {
+  width: 45%;
+  right: -35%;
+  top: -1%;
+}
+
+#comforting_ziggy {
+  width: 26%;
+  left: -32%;
+  top: 72%;
+}
+
+#aboutHopeZiggy {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
+
+.hugging_ziggys {
+  z-index: 2;
+  position: absolute;
+  bottom: 0.4%;
+  left: 32%;
+  width: 35%;
+}
+
+.yellow-heading {
+  color: #fff065;
+}
+
+.emphasized-text {
+  font-size: 1.2em;
+}
+
+.benefits-text {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: #ff9fd9;
+}
+
+.nested-list {
+  font-size: 1em;
+  padding-left: 3%;
+}
+
+@media screen and (max-width: 1140px) {
+  #learning_rainbow_ziggy {
+    top: -140%;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  #learning_rainbow_ziggy {
+    top: -105%;
+  }
+
+  #access_train {
+    top: -38%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #mailboxZiggy {
+    width: 40%;
+    margin-left: 25%;
+  }
+
+  #dashed_line {
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #kids_writing_ziggy {
+    right: -38%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #learning_rainbow_ziggy {
+    top: -70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #learning_rainbow_ziggy {
+    top: -110%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #depositing_ziggy {
+    width: 32%;
+    right: -37%;
+  }
+
+  #piggy_bank_ziggy {
+    width: 28%;
+  }
+
+  #free_gift_ziggy {
+    width: 24%;
+    right: -30%;
+    top: 22%;
+  }
+
+  #access_train {
+    top: -28%;
+  }
+
+  #writing_message_ziggy {
+    width: 28%;
+    right: -34%;
+    top: 64%;
+  }
+
+  #no_stealing_ziggys {
+    width: 34%;
+  }
+
+  #camera_dolly_ziggy {
+    width: 35%;
+  }
+
+  #comforting_ziggy {
+    width: 30%;
+    left: -35%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #learning_rainbow_ziggy {
+    top: -80%;
+  }
+
+  #imagining_ziggy {
+    top: 83%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #kids_energy_saving_ziggy {
+    width: 54%;
+    right: -51%;
+    top: 92%;
+  }
+
+  #coin_dropping_ziggy {
+    top: 5%;
+  }
+
+  #skin_colour_tone_ziggys {
+    width: 40%;
+    top: 0;
+  }
+
+  #rainbow_on_ziggy_island {
+    right: -40%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #open_book {
+    top: 0;
+  }
+
+  #how_to_access_lessons img {
+    width: 170%;
+  }
+
+  #account_rainbow_ziggy {
+    top: -3%;
+  }
+
+  #kids_writing_ziggy {
+    top: 80%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #learning_rainbow_ziggy {
+    top: -40%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #access_train {
+    top: -14%;
+  }
+}

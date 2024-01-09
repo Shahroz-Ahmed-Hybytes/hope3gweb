@@ -1,0 +1,734 @@
+.home-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  font-size: 20px;
+  background-image: url('/public/Images/home/galaxy.png');
+  background-repeat: no-repeat;
+  background-position: top -10% right;
+  background-size: 50%;
+}
+
+@media (max-width: 950px) {
+  .home-container {
+    background-position: top -6% right;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-container {
+    background-position: top -3% right;
+  }
+}
+
+@media (max-width: 350px) {
+  .home-container {
+    background-position: top -2% right;
+  }
+}
+
+.welcome-section {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  top: 70px;
+  background-image: url('/public/Images/home/topmost_rainbow.png');
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: top 54% right -10%;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 1100px) {
+  .welcome-section {
+    background-position: top 73% right 10%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .welcome-section {
+    background-position: top 75% right 10%;
+  }
+}
+
+@media (max-width: 840px) {
+  .welcome-section {
+    background-position: top 77% right 10%;
+  }
+}
+
+@media (max-width: 700px) {
+  .welcome-section {
+    background-position: top 80% right 10%;
+  }
+}
+
+@media (max-width: 700px) {
+  .welcome-section {
+    top: 50px;
+  }
+}
+
+@media (max-width: 640px) {
+  .welcome-section {
+    background-position: top 81% right 10%;
+  }
+}
+
+@media (max-width: 600px) {
+  .welcome-section {
+    background-position: top 82% right 10%;
+  }
+}
+
+@media (max-width: 590px) {
+  .welcome-section {
+    background-position: top 83% right 10%;
+  }
+}
+
+@media (max-width: 530px) {
+  .welcome-section {
+    background-position: top 84% right 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .welcome-section {
+    background-position: top 85% right 10%;
+  }
+}
+
+@media (max-width: 490px) {
+  .welcome-section {
+    background-position: top 86% right 10%;
+  }
+}
+
+@media (max-width: 440px) {
+  .welcome-section {
+    background-position: top 87% right 10%;
+  }
+}
+
+@media (max-width: 420px) {
+  .welcome-section {
+    background-position: top 88% right 10%;
+  }
+}
+
+@media (max-width: 400px) {
+  .welcome-section {
+    background-position: top 89% right 10%;
+  }
+}
+
+@media (max-width: 370px) {
+  .welcome-section {
+    background-position: top 90% right 10%;
+  }
+}
+
+@media (max-width: 340px) {
+  .welcome-section {
+    background-position: top 91% right 10%;
+  }
+}
+
+#site_titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 6%;
+}
+
+#future_of_learning_title {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  #future_of_learning_title {
+    width: 80%;
+  }
+
+  #hope_art_logo {
+    width: 48%;
+  }
+}
+
+@media (max-width: 600px) {
+  #future_of_learning_title {
+    width: 100%;
+  }
+
+  #hope_art_logo {
+    width: 60%;
+  }
+}
+
+.welcome-wrapper {
+  width: 126%;
+  left: -13%;
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  z-index: 2;
+}
+
+@media (max-width: 1100px) {
+  .welcome-wrapper {
+    flex-direction: column;
+    gap: 0;
+    position: relative;
+  }
+}
+
+.welcome-text {
+  padding-top: 15px;
+  font-size: 17px;
+  text-align: left;
+}
+
+@media (max-width: 1360px) {
+  .welcome-text p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .welcome-text p {
+    font-size: 14px;
+  }
+}
+
+.welcome-image {
+  width: 150%;
+}
+
+@media (max-width: 1100px) {
+  .welcome-image {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .welcome-text p {
+    font-size: 16px;
+  }
+
+  #art_presenting_video_picture {
+    width: 55%;
+  }
+}
+
+.welcome-video {
+  position: relative;
+  margin: 56% 0 0 -24%;
+  padding-bottom: 24%;
+  width: 145%;
+  z-index: 1;
+}
+
+@media (max-width: 1100px) {
+  .welcome-video {
+    margin: 58% 0 0 -24%;
+  }
+}
+
+@media (max-width: 840px) {
+  .welcome-video {
+    margin: 60% 0 0 -24%;
+  }
+}
+
+#ziggy_showing {
+  width: 20%;
+  z-index: -1;
+  top: -8%;
+  left: 9%;
+}
+
+#video_placeholder1 {
+  width: 41%;
+  left: 19%;
+}
+
+#ziggy_working {
+  width: 32%;
+  right: 0;
+}
+
+.screen {
+  position: absolute;
+}
+
+#home_video {
+  margin-top: 1.7%;
+  margin-left: 20.8%;
+}
+
+/* #screen_two {
+  width: 96.1%;
+  margin-top: -49.6%;
+  margin-left: 3.9%;
+}
+
+@media (max-width: 1330px) {
+  #screen_two {
+    width: 90.5%;
+    margin-top: -47.1%;
+  }
+}
+
+@media (max-width: 1140px) {
+  #screen_two {
+    width: 85.3%;
+    margin-top: -44.1%;
+    margin-left: 3.5%;
+  }
+}
+
+@media (max-width: 480px) {
+  #screen_two {
+    width: 79.9%;
+    margin-top: -41.5%;
+  }
+}
+
+@media (max-width: 400px) {
+  #screen_two {
+    width: 85.9%;
+    margin-top: -43.8%;
+  }
+}
+
+@media (max-width: 320px) {
+  #screen_two {
+    width: 90.9%;
+    margin-top: -46.8%;
+  }
+}
+
+#screen_three,
+#screen_four,
+#screen_five,
+#screen_six {
+  width: 100%;
+  margin-top: -56%;
+  margin-left: 1%;
+} */
+
+.react-player {
+  display: block;
+}
+
+.learning-section {
+  position: relative;
+  width: 75%;
+  margin: -80px auto 0;
+  background-image: url('/public/Images/home/top_rainbow.png');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: top -55px left 100%;
+  padding-bottom: 5%;
+}
+
+.ziggy-with-adult {
+  width: 56%;
+  left: -22%;
+  margin-top: 25%;
+  z-index: 2;
+  position: absolute;
+}
+
+@media (max-width: 1360px) {
+  .learning-section {
+    margin: -60px auto 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .learning-section {
+    margin: -50px auto 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .learning-section {
+    margin: -20px auto 0;
+  }
+}
+
+@media (max-width: 840px) {
+  .learning-section {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 570px) {
+  .learning-section {
+    margin: 10px auto 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .learning-section {
+    margin: 20px auto 0;
+  }
+}
+
+@media (max-width: 440px) {
+  .learning-section {
+    margin: 30px auto 0;
+  }
+}
+
+@media (max-width: 370px) {
+  .learning-section {
+    margin: 40px auto 0;
+  }
+}
+
+.learning-wrapper {
+  width: 100%;
+}
+
+@media (max-width: 690px) {
+  .learning-text {
+    width: 48%;
+  }
+}
+
+@media (max-width: 600px) {
+  .learning-text h2 {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 590px) {
+  .learning-wrapper {
+    top: 34%;
+  }
+}
+
+@media (max-width: 550px) {
+  .learning-text h2 {
+    font-size: 0.6em;
+  }
+
+  .learning-text p {
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 500px) {
+  .learning-wrapper {
+    top: 32%;
+  }
+}
+
+@media (max-width: 400px) {
+  .learning-wrapper {
+    top: 30%;
+  }
+}
+
+@media (max-width: 320px) {
+  .learning-wrapper {
+    top: 27%;
+  }
+}
+
+@media (max-width: 480px) {
+  .learning-text {
+    width: 55%;
+  }
+}
+
+@media (max-width: 380px) {
+  .learning-text h2 {
+    font-size: 0.5em;
+  }
+
+  .learning-text p {
+    font-size: 0.4em;
+  }
+}
+
+#video_placeholder2 {
+  width: 90%;
+}
+
+@media (max-width: 1330px) {
+  #video_placeholder2 {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1140px) {
+  #video_placeholder2 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  #video_placeholder2 {
+    width: 75%;
+  }
+}
+
+@media (max-width: 400px) {
+  #video_placeholder2 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 320px) {
+  #video_placeholder2 {
+    width: 85%;
+  }
+}
+
+#ziggy_play_on_earth {
+  width: 24%;
+  top: -35%;
+  right: -6%;
+}
+
+@media (max-width: 1450px) {
+  #ziggy_play_on_earth {
+    right: -14%;
+  }
+}
+
+@media (max-width: 800px) {
+  #ziggy_play_on_earth {
+    top: -5%;
+  }
+}
+
+@media (max-width: 400px) {
+  #ziggy_play_on_earth {
+    right: -18%;
+  }
+}
+
+.begin-learning-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: -45px auto 0;
+}
+
+#ziggy_teaching_lesson_in_space {
+  width: 40%;
+}
+
+#vertical_cloud {
+  width: 48%;
+  top: -170%;
+  left: -34%;
+}
+
+#coloured_stars {
+  width: 24%;
+  top: -30%;
+  right: -14%;
+}
+
+@media (max-width: 800px) {
+  #coloured_stars {
+    top: -25%;
+  }
+}
+
+@media (max-width: 720px) {
+  #coloured_stars {
+    top: -15%;
+  }
+}
+
+.ziggy_on_planet {
+  width: 50%;
+  margin-top: 20%;
+  right: -17%;
+  position: absolute;
+}
+
+.space-section {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  background-image: url('/public/Images/home/mid_rainbow.png');
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: top 0 left 0;
+  padding-bottom: 25%;
+}
+
+@media (max-width: 1090px) {
+  .space-section {
+    background-size: 88%;
+  }
+}
+
+@media (max-width: 590px) {
+  .space-section {
+    background-size: 86%;
+  }
+}
+
+.popular-courses-section {
+  position: relative;
+  width: 70%;
+  margin: -65px auto 0;
+}
+
+@media (max-width: 590px) {
+  .popular-courses-section {
+    margin: -45px auto 0;
+  }
+}
+
+.courses-container {
+  width: 95%;
+}
+
+#popular_courses_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.course-preview {
+  display: flex;
+  gap: 10px;
+}
+
+.course-block {
+  background-image: url('/public/Images/home/course_box.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 30%;
+  padding: 4% 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-block h3,
+.course-block p {
+  color: #93fefc;
+}
+
+.course-video {
+  position: relative;
+}
+
+.course-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+#watch_our_episodes {
+  width: 80%;
+  padding: 20px;
+}
+.watch-episodes {
+  width: 55%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40%;
+}
+.watch-episodes-heading {
+  color: #5cd7de;
+  margin: 5%;
+}
+
+.watch-episodes p {
+  font-size: 0.8em;
+  padding: 10px;
+}
+
+@media (max-width: 1440px) {
+  .course-block h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 1250px) {
+  .course-block h3 {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 1090px) {
+  #popular_courses {
+    width: 55%;
+  }
+
+  .course-preview {
+    flex-wrap: wrap;
+    width: 120%;
+    margin-left: 7%;
+  }
+
+  .course-block {
+    width: 35%;
+  }
+}
+@media (max-width: 800px) {
+  .watch-episodes {
+    width: 100%;
+  }
+  .watch-episodes-heading {
+    width: 55%;
+    margin: auto;
+    font-size: 40px;
+  }
+  .watch-episodes p {
+    padding: 10% 10% 0;
+  }
+  .ziggy_on_planet {
+    margin-top: 18%;
+  }
+}
+@media (max-width: 690px) {
+  .watch-episodes p {
+    margin-top: 10px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .course-block h3 {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 590px) {
+  .course-preview {
+    flex-direction: column;
+  }
+
+  .course-block {
+    width: 70%;
+  }
+
+  .course-buttons {
+    flex-direction: column;
+    width: 85%;
+    margin: 24px auto 0;
+  }
+}
+
+@media (max-width: 430px) {
+  .course-block {
+    padding: 8% 6%;
+  }
+}

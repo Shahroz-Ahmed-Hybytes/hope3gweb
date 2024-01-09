@@ -1,0 +1,269 @@
+.contact-inner-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-size: 20px;
+  padding-bottom: 2%;
+  background-image: url('/public/Images/home/sky-stars.png');
+  background-repeat: no-repeat;
+  background-position: center top 4%;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  .contact-inner-container {
+    background-image: url('/public/Images/home/sky-stars.png');
+    background-position: center top -7%;
+    padding-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 651px) {
+  .contact-outer-container {
+    background: linear-gradient(
+      #132246 15%,
+      #1f4486 25%,
+      #3a79b3 55%,
+      #5cb3e1 65%,
+      #94fefc 75%
+    );
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .contact-inner-container {
+    background-image: url('/public/Images/home/sky-stars.png');
+    background-position: center top -2.5%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .contact-inner-container {
+    background-image: url('/public/Images/home/sky-stars.png');
+    background-position: center top -0.6%;
+  }
+}
+
+.contact-intro {
+  background: rgb(76, 91, 123);
+  background: rgb(76, 91, 123, 0.5);
+  border-radius: 90px;
+  box-shadow: inset 0 15px 30px rgb(255 255 255 / 50%),
+    8px 8px 10px 0px rgb(0 0 0 / 30%);
+  width: 70%;
+  position: relative;
+  text-align: center;
+  padding: 2%;
+  font-size: 1.2em;
+}
+
+.hope-text {
+  width: 15%;
+  display: inline;
+}
+
+.contactIntro {
+  width: 70%;
+}
+
+#cloud_messages {
+  width: 100%;
+}
+
+#dont_talk_to_strangers {
+  width: 46%;
+}
+
+#celebrate_bday_ziggy {
+  width: 30%;
+  right: -30%;
+  top: 21%;
+}
+
+#parent_supervision_ziggy {
+  width: 25%;
+  left: -26%;
+  top: -25%;
+}
+
+#send_to_ziggy {
+  width: 60%;
+  z-index: 1;
+}
+
+#bin_rainbow_ziggy {
+  width: 140%;
+  left: -18%;
+  top: 100%;
+}
+
+#contact_mailbox_ziggy {
+  width: 18%;
+  left: -13%;
+  top: 53%;
+}
+
+#ziggy_island {
+  width: 37%;
+  right: -17%;
+  top: 51%;
+}
+
+#children_directors_wanted_ziggy {
+  width: 20%;
+  left: -22%;
+  top: 46%;
+}
+
+#contact_mailbox {
+  width: 32%;
+  right: -25%;
+  top: 122%;
+}
+
+#duck_riding_ziggy {
+  width: 46%;
+}
+
+#clipboard_checklist {
+  width: 20%;
+  left: -24%;
+  bottom: 72%;
+}
+
+#chalkboard_ziggy {
+  width: 28%;
+  right: -31%;
+  bottom: 61%;
+}
+
+#smiley_face_note {
+  width: 20%;
+  right: -21%;
+  bottom: 34%;
+}
+
+#telephone_ziggy {
+  width: 40%;
+  left: -50%;
+  bottom: 22%;
+}
+
+#voice_recording_ziggy {
+  width: 24%;
+  right: -28%;
+  bottom: 2%;
+}
+
+@media screen and (max-width: 630px) {
+  .contact-intro {
+    border-radius: 45px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #dont_talk_to_strangers {
+    width: 60%;
+  }
+
+  #celebrate_bday_ziggy {
+    width: 50%;
+    right: -46%;
+    top: 25%;
+  }
+
+  #parent_supervision_ziggy {
+    width: 46%;
+    left: -46%;
+    top: -12%;
+  }
+
+  #send_to_ziggy {
+    width: 65%;
+    z-index: 1;
+  }
+
+  #bin_rainbow_ziggy {
+    width: 140%;
+    left: -18%;
+    top: 100%;
+  }
+
+  #contact_mailbox_ziggy {
+    width: 32%;
+    left: -19%;
+    top: 55%;
+  }
+
+  #ziggy_island {
+    width: 65%;
+    right: -34%;
+    top: 54%;
+  }
+
+  #children_directors_wanted_ziggy {
+    width: 40%;
+    left: -44%;
+    top: 46%;
+  }
+
+  #contact_mailbox {
+    width: 45%;
+    right: -40%;
+    top: 125%;
+  }
+
+  #duck_riding_ziggy {
+    width: 66%;
+  }
+
+  #clipboard_checklist {
+    width: 35%;
+    left: -39%;
+    bottom: 81%;
+  }
+
+  #chalkboard_ziggy {
+    width: 49%;
+    right: -51%;
+    bottom: 66%;
+  }
+
+  #smiley_face_note {
+    width: 40%;
+    right: -41%;
+    bottom: 39%;
+  }
+
+  #telephone_ziggy {
+    width: 65%;
+    left: -60%;
+    bottom: 27%;
+  }
+
+  #voice_recording_ziggy {
+    width: 46%;
+    right: -49%;
+    bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #writing_ziggy {
+    top: -4%;
+  }
+
+  #stars {
+    top: 51%;
+  }
+
+  #strategy_thinking_ziggy {
+    left: -51%;
+    top: 4%;
+    width: 68%;
+  }
+
+  #complaint_ziggy {
+    bottom: 94%;
+  }
+}
